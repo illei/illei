@@ -332,7 +332,7 @@ font-family: Ubuntu-Regular;
 }
 
 .footer{
-	background: #202020;
+	background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 	height: 40px;
 	
 	clear: right;
