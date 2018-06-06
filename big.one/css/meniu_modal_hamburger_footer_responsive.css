@@ -1,0 +1,242 @@
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+
+.navbar{
+	width: 100%;
+	padding: 15px 0px 15px 0px;
+	height: 100px;
+}
+
+.empty{
+	height: 150px;
+}
+
+.navbar a {
+	display: none;
+}
+
+.navbar label{
+	display: none;
+	float: none;
+}
+
+.navbar span{
+	display: inline-block;
+	float: none;
+	font-size: 20px;
+
+}
+
+.nav-inner{
+	width: 100%;
+}
+
+.navbar .nume2{
+	font-size: 20px;
+}
+
+
+
+.title-container{
+	width: 90%;
+	margin:auto;
+
+}
+
+.modal-content{
+	width: 360px;
+}
+
+/*works for  all 4 pages*/
+
+
+
+.footer-social{
+	display: none;
+}
+.copy{
+	padding: 0;
+	padding-top: 7px;
+	text-align: center;
+	width: 90%;
+	margin: auto;
+
+}
+/*Hamburger!!!*/
+#ham{
+	display: block;
+    color: white;	
+}
+
+#ham1{
+color: white;
+    
+}
+
+.hamburger{
+	height: 310px;
+	width: 100%;
+	background: #373737;
+
+	
+}
+
+#empty-hamburger{
+	height: 120px;
+
+}
+
+.hamburger-holder{
+	height: 60px;
+	border:1px solid #999999;
+	
+}
+
+.hamburger a{
+	color: #e8e8eac2;
+	line-height: 60px;
+	margin-left: 20px;
+	font-family:  "Open Sans",Helvetica,sans-serif;
+}
+
+.hamburger-login{
+	background:#4a9e17;
+	color: white;
+}
+
+.hamburger-login a {
+	color: white;
+}
+
+
+
+/*End Hamburger*/
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+	.navbar{
+	width: 100%;
+	padding: 15px 0px 15px 0px;
+    height: 106px;
+}
+
+
+
+.navbar a {
+	display: none;
+}
+
+.navbar label{
+	display: none;
+	float: none;
+}
+
+.navbar span{
+	display: inline-block;
+	float: none;
+	font-size: 20px;
+
+}
+
+.nav-inner{
+	width: 100%;
+}
+
+.navbar .nume2{
+	font-size: 20px;
+}
+
+
+
+.title-container{
+	width: 90%;
+	margin:auto;
+
+}
+
+#ham{
+	display: block;
+	
+}
+
+/*Hamburger!!!*/
+
+.hamburger{
+	height: 310px;
+	width: 100%;
+	background: #373737;
+
+	
+}
+
+#empty-hamburger{
+	height: 120px;
+
+}
+
+.hamburger-holder{
+	height: 60px;
+	border:1px solid #999999;
+	
+}
+
+.hamburger a{
+	color: #e8e8eac2;
+	line-height: 60px;
+	margin-left: 20px;
+	font-family:  "Open Sans",Helvetica,sans-serif;
+}
+
+.hamburger-login{
+	background:#4a9e17;
+	color: white;
+}
+
+.hamburger-login a {
+	color: white;
+}
+
+/*Footer*/
+.footer-social{
+	display: none;
+}
+.copy{
+	padding: 0;
+	padding-top: 7px;
+	text-align: center;
+	width: 90%;
+	margin: auto;
+
+}
+
+.modal-content{
+	width: 500px;
+}
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+
+	.navbar{
+		font-size: 13px;
+	}
+
+	.nav-inner{
+		width: 90%;
+	}
+
+	.navbar span{
+		font-size: 19px;
+	}
+
+	.navbar .nume2{
+		font-size: 15px;
+	}
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1339px){
+	
+
+
+}

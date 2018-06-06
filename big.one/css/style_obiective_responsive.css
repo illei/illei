@@ -1,0 +1,194 @@
+@media screen and (min-width: 320px) and (max-width: 480px){
+    
+.site-wrapper{
+    
+    height: auto;
+    padding-bottom: 100px;
+    
+ } 
+    
+    .top-row{
+        width: 100%;
+    }
+    
+    .second-row{
+        width: 100%;
+    }
+    
+    .content{
+        float: none;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .modal-ob{
+
+  padding-top: 0;
+    
+}
+    .modal-head-ob{
+  
+  width: 100%;
+  
+}
+
+    
+    .modal-content-ob{
+
+  width: 100%;
+  height: 100%; 
+}
+    
+    
+.modal-ob-container{
+  width: 90%;
+    position: relative;
+    
+}
+    
+.modal-ob-img{
+   
+  width:150px; 
+  height: 150px; 
+  margin: 20px 10px 25px 20px;  
+  border-radius: 50px;
+    float: right;
+    clear: both;
+    position: absolute;
+    top: 22%; left: 65%;
+  transform: translate(-50%,-50%);
+  
+}
+    .modal-ob-inf{
+  width:100%;  
+        
+        
+   
+ 
+}
+    
+    
+    .modal-ob-inf h3 {
+  padding-left: 20px;
+  padding-top: 20px;
+        padding-bottom: 50px;
+   width: 40%;
+}
+    
+.modal-ob-text{
+  width:100%;
+    margin: 0;
+    
+
+  text-align: justify;
+  
+}
+
+.modal-ob-text p {
+  padding-top: 50px;
+    width: 90%;
+    margin: auto;
+
+}
+    
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 690px){
+    
+    .site-wrapper{
+    
+    height: auto;
+    padding-bottom: 100px;
+    
+ } 
+    
+    .top-row{
+        width: 80%;
+    }
+    
+    .second-row{
+        width: 80%;
+    }
+    
+    .content{
+        float: none;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+
+    
+    
+}
+
+@media screen and (min-width: 690px) and (max-width: 768px){
+    .site-wrapper{
+    
+    padding-bottom: 200px;
+        height: 1100px;
+        
+    
+ } 
+    
+    .top-row{
+       width: 600px;
+        
+        
+    }
+    
+    .second-row{
+        width:  600px;
+    }
+    
+    .content{
+        float: left;
+        width: 280px;
+        margin: auto;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        
+    }
+    
+    
+    
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1100px){
+    
+    .site-wrapper{
+    
+    padding-bottom: 200px;
+        height: 1100px;
+        
+    
+ } 
+    
+    .top-row{
+       width: 600px;
+        
+        
+    }
+    
+    .second-row{
+        width:  600px;
+    }
+    
+    .content{
+        float: left;
+        width: 280px;
+        margin: auto;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        
+    }
+ 
+
+
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1365px){
+	
+}	

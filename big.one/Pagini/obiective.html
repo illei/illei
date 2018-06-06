@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Obiective</title>
+	<link rel="stylesheet" type="text/css" href="../css/style_obiective.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/modal_navbar_footer.css">
+	<link rel="stylesheet" type="text/css" href="../css/meniu_modal_hamburger_footer_responsive.css">
+	<link rel="stylesheet" type="text/css" href="../css/style_obiective_responsive.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+</head>
+<body id="body">
+
+	
+<div id="navbar" class="navbar">
+
+		<div class="nav-inner">	
+			<div class="title-container"><span class="nume"> Turist</span>
+			<span class="nume2">in ORADEA</span>
+			<div id="ham" > <i  onclick="show()" class="fas fa-bars" ></i></div>
+			<div id="ham1" > <i  onclick="close_ham()" class="fas fa-times"  ></i></div>
+
+		</div>
+
+			<label onclick="open_modal()">Autentificare</label>
+			<a href="obiective.html">Obiective</a>
+			<a href="Istoric.html">Istoric</a>
+			<a href="index.html"> Oras</a>
+		</div>
+
+	</div>
+
+	<div id="empty-hamburger" ></div>
+
+
+	
+<div id="hamburger" style="display: none;" class="hamburger shadow">
+		
+		
+			
+			
+			
+			<div class="hamburger-holder" onclick="location.href='Melodia.html'"><a href="Melodia.html" style=";">Melodia Preferata</a></div>
+			<div class="hamburger-holder" onclick="location.href='hobby.html'"><a href="hobby.html">Hobby-uri</a></div>
+			<div class="hamburger-holder" onclick="location.href='review.html'"><a href="review.html">Review</a></div>
+			<div class="hamburger-holder" onclick="location.href='index.html'"><a href="index.html"> Home</a></div>
+			<div class="hamburger-holder hamburger-login" onclick="open_modal()"><a onclick="open_modal()">Welcome back, Login</a></div>
+				
+		
+		
+</div>
+
+
+<div id="modal"  class="modal shadow">
+		
+	<div class="modal-content">
+
+		
+		<div class="modal-form">
+			<span onclick="close_modal()">X</span>
+
+			<form id="form">
+				<div class="modal-log-container"><i class="fas fa-address-card"></i></div>
+
+				<div style="" class="modal-class"><i class="fas fa-user-secret"></i>	<input  type="text" name="User" id="user" placeholder="User"></div><br>
+				<div class="modal-class"><i onmousedown="reveal()" onmouseup="hide()" class="fas fa-eye"></i> <input type="password" name="pass" id="pass" placeholder="Password"></div><br>
+				<span id="log" onclick="log_in()"  name="Login" value="Login">Login</span>
+
+			</form>
+
+			<div class="modal-succes"><h3> Autentificare Reusita,<br>Bine ai revenit</h3></div>
+
+		</div>
+
+		<div class="modal-footer">
+			
+		</div>
+
+	</div>
+
+</div>
+
+
+<div id="modal-par"  class="modal-ob shadow">
+		
+	<div class="modal-content-ob">
+		<div class="modal-head-ob">
+		<span class="close-ob" onclick="close_modal_par()">X</span></div>
+
+		
+
+		
+
+		
+
+	</div>
+
+</div>
+
+
+<div id="modal-ps"  class="modal-ob shadow">
+   <div class="modal-head-ob">
+		<span class="close-ob" onclick="close_modal_ps()">X</span></div>
+		
+	<div class="modal-content-ob">
+
+		
+
+				
+				<div class="modal-ob-container">
+
+					<div  class="modal-ob-img ciuperca-img" >
+						
+							
+					</div>
+
+					<div class="modal-ob-inf">
+						<h3>Dealul Ciuperca </h3>
+						 <div class="modal-ob-text"><p> Dealul Ciuperca este locul potrivit de unde te poți bucura de răsăriturile, apusurile și cerul înstelat ce surprind plăcut pe oricine.</p></div>
+						
+					</div>
+
+
+				 </div>
+
+				<div class="modal-ob-container">
+
+					<div class="modal-ob-img piata-unirii-img " onclick="openModal()" >
+
+						
+					</div>
+
+					<div class="modal-ob-inf">
+						<h3>Piata unirii</h3>
+						 <div class="modal-ob-text"><p>Fondul construit al zonei Pieţei Unirii este unul valoros şi destul de eterogen atât din punctul de vedere al stilurilor arhitecturale prezente aici (baroc, clasicist, eclectic, istorizant, secesion, modernist), cât şi în privinţa configuraţiilor spaţiale adoptate, a accentelor şi a regimurilor de înălţime.</p></div>
+						
+					</div>
+
+
+				 </div>
+
+				<div class="modal-ob-container">
+
+					<div class="modal-ob-img mal-img" >
+						
+					</div>
+
+					<div class="modal-ob-inf">
+						<h3>Malul Crisului</h3>
+						 <div class="modal-ob-text"><p>Lolcul perfcet pentru plimbari de seara sau de zi, malul crisului Repede este de o frumueste izbitoare si captivanta</p></div>
+						
+					</div>
+
+
+				 </div>
+
+
+
+				<div class="modal-ob-container">
+
+					<div class="modal-ob-img parc-img" >
+						
+					</div>
+
+					<div class="modal-ob-inf ">
+						<h3> Parcul 1 Decembrie</h3>
+						 <div class="modal-ob-text"><p> Parcul 1 Decembrie este situat in centrul orașului fiind o oază de verdeață în inima orașului.Parcul găzduieşte: Casa de Cultura a Sindicatelor, două fântâni arteziene și Statuia Ostaşului Român, operă a sculptorului Iulia Oniţa simbolizând eroismul armatei române.</p></div>
+						
+					</div>
+
+
+				 </div>
+
+
+
+				<div class="modal-ob-container">
+
+					<div class="modal-ob-img republici-img" >
+						
+					</div>
+
+					<div class="modal-ob-inf">
+						<h3>Strada Republici</h3>
+						 <div class="modal-ob-text"><p> Bulevardul republici  arata frumusetea orasului Oradea.
+						 Gazduind multe magazine vestimentare </p></div>
+						
+					</div>
+
+
+				 </div>
+
+	</div>
+
+</div>
+
+
+
+<div id="modal-ist"  class="modal-ob shadow">
+	
+			
+	<div class="modal-content-ob">
+		<div class="modal-head-ob">
+		<span class="close-ob" onclick="close_modal_ist()">X</span></div>
+
+		<div class="modal-ob-container">
+
+					<div class="modal-ob-img ciuperca-img" >
+						
+					</div>
+
+					<div class="modal-ob-inf">
+						<h3>Dealul Ciuperca </h3>
+						 <div class="modal-ob-text"><p> Dealul Ciuperca este locul potrivit de unde te poți bucura de răsăriturile, apusurile și cerul înstelat ce surprind plăcut pe oricine.</p></div>
+						
+					</div>
+
+
+				 </div>
+
+				<div class="modal-ob-container">
+
+					<div class="modal-ob-img piata-unirii-img" >
+						
+					</div>
+
+					<div class="modal-ob-inf">
+						<h3>Piata unirii</h3>
+						 <div class="modal-ob-text"><p>Fondul construit al zonei Pieţei Unirii este unul valoros şi destul de eterogen atât din punctul de vedere al stilurilor arhitecturale prezente aici (baroc, clasicist, eclectic, istorizant, secesion, modernist), cât şi în privinţa configuraţiilor spaţiale adoptate, a accentelor şi a regimurilor de înălţime.</p></div>
+						
+					</div>
+
+
+				 </div>
+
+				<div class="modal-ob-container">
+
+					<div class="modal-ob-img mal-img" >
+						
+					</div>
+
+					<div class="modal-ob-inf">
+						<h3>Malul Crisului</h3>
+						 <div class="modal-ob-text"><p>Lolcul perfcet pentru plimbari de seara sau de zi, malul crisului Repede este de o frumueste izbitoare si captivanta</p></div>
+						
+					</div>
+
+
+				 </div>
+
+
+
+				<div class="modal-ob-container">
+
+					<div class="modal-ob-img parc-img" >
+						
+					</div>
+
+					<div class="modal-ob-inf ">
+						<h3> Parcul 1 Decembrie</h3>
+						 <div class="modal-ob-text"><p> Parcul 1 Decembrie este situat in centrul orașului fiind o oază de verdeață în inima orașului.Parcul găzduieşte: Casa de Cultura a Sindicatelor, două fântâni arteziene și Statuia Ostaşului Român, operă a sculptorului Iulia Oniţa simbolizând eroismul armatei române.</p></div>
+						
+					</div>
+
+
+				 </div>
+
+
+
+				<div class="modal-ob-container">
+
+					<div class="modal-ob-img republici-img" >
+						
+					</div>
+
+					<div class="modal-ob-inf">
+						<h3>Strada Republici</h3>
+						 <div class="modal-ob-text"><p> Bulevardul republici  arata frumusetea orasului Oradea.
+						 Gazduind multe magazine vestimentare </p></div>
+						
+					</div>
+
+
+				 </div>
+
+		
+
+		
+
+		
+
+	</div>
+
+</div>
+
+
+
+<div id="modal-rst"  class="modal-ob shadow">
+
+		
+	<div class="modal-content-ob">
+		<div class="modal-head-ob">
+		<span class="close-ob" onclick="close_modal_rst()">X</span></div>
+
+		
+
+		
+
+		
+
+	</div>
+
+</div>
+
+<div id="modal-htl"  class="modal-ob shadow">
+	
+		
+	<div class="modal-content-ob">
+		<div class="modal-head-ob">
+		<span class="close-ob" onclick="close_modal_htl()">X</span></div>
+
+		
+
+		
+
+		
+
+	</div>
+
+</div>
+
+
+
+<div id="modal-pub"  class="modal-ob shadow">
+	
+	
+	<div class="modal-content-ob">
+		<div class="modal-head-ob"><span class="close-ob" onclick="close_modal_pub()">X</span></div>
+		
+
+		
+
+		
+
+		
+
+	</div>
+
+</div>
+
+
+
+<div  class="empty"></div>
+
+<div class="site-wrapper">
+
+	
+    <div class="top-row">
+            <div  onclick="open_modal_ps() " class="content shadow content-ps-img">
+
+               
+                <div  class="content-text">
+                    <h3>Peisaje</h3>
+                    
+                </div>
+
+            </div>
+
+
+            <div class="content shadow content-ist-img" onclick="open_modal_ist() ">
+
+                
+                <div class="content-text">
+                     <h3>Obiective istorice</h3>
+                   
+                </div>
+
+            </div>
+
+
+
+            <div onclick="open_modal_par()" class="content shadow content-aqp-img">
+
+                
+                <div class="content-text  ">
+                    
+                     <h3>Parcuri acvatice si stranduri</h3>
+                </div>
+            </div>
+    </div>
+    
+    <div class="second-row">
+
+            <div class="content shadow content-pub-img" onclick="open_modal_pub() ">
+
+                
+                <div class="content-text ">
+                    <h3>PUB-uri</h3>
+                 
+                </div>
+
+            </div>
+
+            
+
+            <div class="content shadow content-spn-img" onclick="open_modal_rst() ">
+
+           
+                <div class="content-text">
+                     <h3>Restaurante</h3>
+                        
+                </div>
+
+            </div>
+
+            <div class="content shadow content-ht-img" onclick="open_modal_htl() ">
+
+           
+                <div class="content-text">
+                     <h3>Hoteluri</h3>
+                        
+                </div>
+
+            </div>
+	</div>	
+    
+</div>
+
+
+
+
+
+		
+<footer class="footer">
+	<div class="footer-container">
+		
+
+		<div class="footer-social">
+			<i id="insta-f" class="fab fa-instagram"></i>
+			<i id="face-f" class="fab fa-facebook-messenger"></i>
+			<i id="snap-f" class="fab fa-snapchat"></i>
+			<i id="twitt-f" class="fab fa-twitter"></i>
+			<i id="google-f" class="fab fa-google"></i>
+		</div>
+
+		<div class="copy">Illei Web Services &copy;2018</div>
+
+	</div>
+	
+</footer>
+
+
+<script type="text/javascript" src="../js/modal.js"></script>
+<script type="text/javascript" src="../js/modal-ob.js"></script>
+
+<script type="text/javascript" src="../js/hamburger.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
+</body>
+</html>

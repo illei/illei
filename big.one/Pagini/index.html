@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paginna principala</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/modal_navbar_footer.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/meniu_modal_hamburger_footer_responsive.css">
+	<link rel="stylesheet" type="text/css" href="../css/style_responsive.css">
+	
+	
+</head>
+<body id="body">
+
+	<div id="navbar" class="navbar">
+
+		<div class="nav-inner">	
+			<div class="title-container"><span class="nume"> Turist</span>
+			<span class="nume2">in ORADEA</span>
+			<div id="ham" > <i  onclick="show()" class="fas fa-bars" ></i></div>
+			<div id="ham1" > <i  onclick="close_ham()" class="fas fa-times"  ></i></div>
+
+		</div>
+
+			<label onclick="open_modal()">Autentificare</label>
+			<a href="obiective.html">Obiective</a>
+			<a href="Istoric.html">Istoric</a>
+			<a href="index.html"> Oras</a>
+		</div>
+
+	</div>
+
+	<div class="nav-img">
+		
+
+	</div>
+
+	<div id="empty-hamburger" ></div>
+
+
+	
+<div id="hamburger" style="display: none;" class="hamburger shadow">
+		
+		
+			
+			
+			
+			<div class="hamburger-holder" onclick="location.href='Melodia.html'"><a href="Melodia.html" style=";">Melodia Preferata</a></div>
+			<div class="hamburger-holder" onclick="location.href='hobby.html'"><a href="hobby.html">Hobby-uri</a></div>
+			<div class="hamburger-holder" onclick="location.href='review.html'"><a href="review.html">Review</a></div>
+			<div class="hamburger-holder" onclick="location.href='index.html'"><a href="index.html"> Home</a></div>
+			<div class="hamburger-holder hamburger-login" onclick="open_modal()"><a onclick="open_modal()">Welcome back, Login</a></div>
+		
+		
+</div>
+
+<div id="modal"  class="modal shadow">
+		
+	<div class="modal-content">
+
+
+		<div class="modal-form">
+			<span onclick="close_modal()">X</span>
+
+			<form id="form">
+				<div class="modal-log-container"><i class="fas fa-address-card"></i></div>
+
+				<div style="" class="modal-class"><i class="fas fa-user-secret"></i>	<input  type="text" name="User" id="user" placeholder="User"></div><br>
+				<div class="modal-class"><i onmousedown="reveal()" onmouseup="hide()" class="fas fa-eye"></i> <input type="password" name="pass" id="pass" placeholder="Password"></div><br>
+				<span id="log" onclick="log_in()"  name="Login" value="Login">Login</span>
+
+			</form>
+
+			<div class="modal-succes"><h3> Autentificare Reusita,<br>Bine ai revenit</h3></div>
+
+		</div>
+
+		
+
+	</div>
+
+</div>
+
+
+	<div  class="empty"></div>
+
+<!-- Slideshow container 
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text 
+  <div class="mySlides fade">
+    
+    <img src="../img/slide1.jpg" >
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    
+    <img src="../img/slide2.jpg" >
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+  	
+    <img src="../img/img3.jpg" >
+    <div class="text"></div>
+  </div>
+
+  
+</div>-->
+    
+    
+    
+    
+<br>
+
+
+
+	
+	
+	
+<div class="site-wrapper">
+	<div class="content">
+
+			<div class="news shadow">
+				<div class="news-img-container mywebsite"></div>
+				<div class="news-middle">
+						<div class="news-middle-container">
+							<h1><a href="#">Street Food festival</a></h1>
+							<p>Evenimentul se va deschide publicului pe data de 17 mai și se va încheia duminică, 20 mai. Măsura închiderii circulației cu o zi înainte de debutul festivalului este necesară pentru montarea standurilor, urmând ca acestea să fie demontate după închiderea festivalului.Circulația auto în Piața Unirii va fi redeschisă luni, 21 mai, la ora 06:00.</p>
+							<div class="news-footer">
+								<div class="inner-footer">
+									
+									<span class="post-time" >Luni, 14, Mai</span>
+								</div>
+							</div>
+						</div>
+				</div>
+
+			</div>
+
+	<div class="news shadow">
+				<div class="news-img-container mywebsite"></div>
+				<div class="news-middle">
+						<div class="news-middle-container">
+							<h1><a href="#">Street Food festival</a></h1>
+							<p>Evenimentul se va deschide publicului pe data de 17 mai și se va încheia duminică, 20 mai. Măsura închiderii circulației cu o zi înainte de debutul festivalului este necesară pentru montarea standurilor, urmând ca acestea să fie demontate după închiderea festivalului.Circulația auto în Piața Unirii va fi redeschisă luni, 21 mai, la ora 06:00.</p>
+							<div class="news-footer">
+								<div class="inner-footer">
+									
+									<span class="post-time" >Luni, 14, Mai</span>
+								</div>
+							</div>
+						</div>
+				</div>
+
+			</div>		
+
+	</div>
+
+	<div class="content-right">
+
+		<div class="news shadow">
+				<div class="news-img-container myPc"></div>
+				<div class="news-middle">
+						<div class="news-middle-container">
+							<h1><a href="#">Colours Festival</a></h1>
+							<p>Cea de-a doua ediţia a Colours Festival se va desfăşura în Cetatea Oradea în 3 iunie 2017, între orele 10:00 – 23:00.
+							Festivalul celebrează victoria binelui asupra răului și sărbătorirea sosirii verii. „Este un festival colorat, special, cu o scenă mare pe care mixează DJ din România, Ungaria și Serbia de dimineață până seara.</p>
+							<div class="news-footer">
+								<div class="inner-footer">
+									
+									<span class="post-time" >Duminica, 03, Iunie</span>
+								</div>
+							</div>
+						</div>
+				</div>
+
+			</div>
+
+	<div class="news shadow">
+				<div class="news-img-container mywebsite"></div>
+				<div class="news-middle">
+						<div class="news-middle-container">
+							<h1><a href="#">Street Food festival</a></h1>
+							<p>Evenimentul se va deschide publicului pe data de 17 mai și se va încheia duminică, 20 mai. Măsura închiderii circulației cu o zi înainte de debutul festivalului este necesară pentru montarea standurilor, urmând ca acestea să fie demontate după închiderea festivalului.Circulația auto în Piața Unirii va fi redeschisă luni, 21 mai, la ora 06:00.</p>
+							<div class="news-footer">
+								<div class="inner-footer">
+									
+									<span class="post-time" >Luni, 14, Mai</span>
+								</div>
+							</div>
+						</div>
+				</div>
+
+			</div>
+
+	 </div>
+
+
+  </div>	
+
+
+
+
+<!-- 
+				<div class="news shadow">
+					<div class="news-img-container myCode"></div>
+					<div class="news-middle">
+						<div class="news-middle-container">
+						<h1><a href="#">Learining how to code isent so scarry as it seems, give it a shoot</a></h1>
+						<p>By changing a few things, you can improve your website’s performance significantly. Make users engage more with your content and optimize the conversion rate of sales per visitor. Here we’ll give you 10 3-minute ideas that will improve your website instantly. Don’t have a website yet? With SimpleSite you can build your own FREE website in minutes. It..</p>
+						</div>
+					</div>
+					<div class="news-footer">
+						<div class="inner-footer">
+							<span class="inner-footer-button">CONTINUE READING</span>
+							<span class="post-time"><abbr>Monday, Martch, 02</abbr></span>
+						</div>
+					</div>
+				</div>
+				-->
+	
+
+	<!-- 
+<div class="item-scope">
+		
+		<div class=" scope shadow social">
+			<div class="follow"><h3>Social Media</h3></div>
+			<div class="follow-scope">
+				<div class="follow-contaier">
+
+				<i id="insta" class="fab fa-instagram"></i>
+				<i id="face" class="fab fa-facebook-messenger"></i>
+				<i id="snap" class="fab fa-snapchat"></i>
+				<i id="twitt" class="fab fa-twitter"></i>
+				<i id="google" class="fab fa-google"></i>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class=" scope shadow Posts">
+
+			<div class="post1"><h3>Popular Posts</h3></div>
+			<div class="post2"> 
+				<img src="../img/blog.jpg" class="posts-img"  width="95" height="90">
+				<p class="post-link"><br>How to Start a Successful Blog </p>
+			</div>
+			<div class="post3"> 
+				<img src="../img/Pc-post.png" class="posts-img"  width="95" height="90">
+				<p class="post-link"><br>Best ways to build a powerfull PC</p>
+			</div>
+			<div class="post4"> 
+				<img src="../img/learn-to-code.jpg" class="posts-img"  width="95" height="90">
+				<p class="post-link"><br>Learining how to code isent so scarry as it seems</p>
+			</div>
+			<div class="post5"> 
+				<img src="../img/comeing .jpg" class="posts-img"  width="95" height="90">
+				<p class="post-link"><br>Comeing soon!</p>
+			</div>
+			
+		</div>
+
+		<div class=" scope shadow topics">
+
+			<div class="topic1"><h3>Topics</h3></div>
+			<div class="topic2"> <p href="#">Improveing your Website</p> </div>
+			<div class="topic3"> <p href="#">Build a PC</p> </div>
+			<div class="topic4"> <p href="#">Learning to code</p> </div>
+			<div class="topic5"> <p href="#">Technology this days</p> </div>
+			<div class="topic6"> <p href="#">Blog Post Writing</p> </div>
+			
+		</div>-->
+
+
+	</div>
+
+</div>
+
+
+
+<footer class="footer">
+	<div class="footer-container"></div>
+	<div class="footer-social">
+				<i id="insta-f" class="fab fa-instagram"></i>
+				<i id="face-f" class="fab fa-facebook-messenger"></i>
+				<i id="snap-f" class="fab fa-snapchat"></i>
+				<i id="twitt-f" class="fab fa-twitter"></i>
+				<i id="google-f" class="fab fa-google"></i>
+			</div>
+			<div class="copy">Illei Web Services &copy;2018</div>
+	
+	
+</footer>
+
+
+<script type="text/javascript" src="../js/modal.js"></script>
+<script type="text/javascript" src="../js/slideshow.js"></script>
+<script type="text/javascript" src="../js/hamburger.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
+</body>
+</html>

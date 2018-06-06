@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<!-- saved from url=(0098)file:///Users/illei/illei/faculta/Anul%20II/sem%20II/PIU/proiecte%20laborator/proiect1/review.html -->
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Review</title>
+    
+     <link rel="stylesheet" type="text/css" href="../css/modal_navbar_footer.css">
+	<link rel="stylesheet" type="text/css" href="../css/style_review.css">
+    <link rel="stylesheet" type="text/css" href="../css/modal_navbar_footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/meniu_modal_hamburger_footer_responsive.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_review_responsive.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	</head>
+
+    <body id="body">
+
+
+
+<div id="navbar" class="navbar">
+
+		<div class="nav-inner">	
+			<div class="title-container"><span class="nume"> Turist</span>
+			<span class="nume2">in ORADEA</span>
+			<div id="ham" > <i  onclick="show()" class="fas fa-bars" ></i></div>
+			<div id="ham1" > <i  onclick="close_ham()" class="fas fa-times"  ></i></div>
+
+		</div>
+
+			<label onclick="open_modal()">Autentificare</label>
+			<a href="obiective.html">Obiective</a>
+			<a href="Istoric.html">Istoric</a>
+			<a href="index.html"> Oras</a>
+		</div>
+
+	</div>
+
+    <div id="empty-hamburger" ></div>
+
+
+    
+<div id="hamburger" style="display: none;" class="hamburger shadow">
+        
+        
+            
+            
+            
+           <div class="hamburger-holder" onclick="location.href='Melodia.html'"><a href="Melodia.html" style=";">Melodia Preferata</a></div>
+            <div class="hamburger-holder" onclick="location.href='hobby.html'"><a href="hobby.html">Hobby-uri</a></div>
+            <div class="hamburger-holder" onclick="location.href='review.html'"><a href="review.html">Review</a></div>
+            <div class="hamburger-holder" onclick="location.href='index.html'"><a href="index.html"> Home</a></div>
+            <div class="hamburger-holder hamburger-login" onclick="open_modal()"><a onclick="open_modal()">Welcome back, Login</a></div>
+                
+        
+        
+</div>
+
+
+
+
+<div id="modal"  class="modal shadow">
+        
+    <div class="modal-content">
+
+        
+
+            
+                        
+    
+
+        <div class="modal-form">
+            <span onclick="close_modal()">X</span>
+
+            <form id="form">
+                <div class="modal-log-container"><i class="fas fa-address-card"></i></div>
+
+                <div style="" class="modal-class"><i class="fas fa-user-secret"></i>    <input  type="text" name="User" id="user" placeholder="User"></div><br>
+                <div class="modal-class"><i onmousedown="reveal()" onmouseup="hide()" class="fas fa-eye"></i> <input type="password" name="pass" id="pass" placeholder="Password"></div><br>
+                <span id="log" onclick="log_in()"  name="Login" value="Login">Login</span>
+
+            </form>
+
+            <div class="modal-succes"><h3> Autentificare Reusita,<br>Bine ai revenit</h3></div>
+
+        </div>
+
+        <div class="modal-footer">
+            
+        </div>
+
+    </div>
+
+</div>
+
+
+<div  class="empty"></div>
+
+ 	
+
+<div class="site-wrapper">	
+	
+	<div id="form2" style="box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);"></div>    
+    <form id="formular" class="myForm shadow">
+    
+   <br>    
+<div class="input-container"><label>Numele: </label> <br><input type="text" id="nume" onblur="verifica_nume()" placeholder="adrian" ><br><br></div>
+
+ <div class="input-container"><label>Prenumele:</label><br><input type="text" id="prenume" onblur="verifica_prenume()" placeholder="Gheorghe" ><br><br></div>
+
+ <div class="input-container"><label>Adresa:</label><br><input type="text" id="adresa" onblur="verifica_adresa()" placeholder=" Str. Universitatii nr 1." ><br><br></div>
+
+ <div class="input-container"><label> Judet:</label>
+        <select  name="judet" required>
+            <option value="Alba " selected>Alba</option>
+            <option value="Arad">Arad</option>
+            <option value="Argeș">Arges</option>
+            <option value="Bacău">Bacau</option>
+            <option value="Bihor">Bihor</option>
+            <option value="Bistrița-Năsăud ">Bistrița-Năsăud</option>
+            <option value="Botoșani">Botoșani</option>
+            <option value="Brașov">Brașov</option>
+            <option value="Brăila">Brăila</option>
+            <option value="Buzău ">Buzău</option>
+            <option value="Caraș-Severin ">Caraș-Severin</option>
+            <option value="Călărași ">Călărași</option>
+            <option value="Cluj">Cluj</option>
+            <option value="Constanța ">Constanța</option>
+            <option value="Covasna ">Covasna</option>
+            <option value="Dâmbovița ">Dâmbovița</option>
+            <option value="Dolj ">Dolj </option>
+            <option value="Galați">Galați</option>
+            <option value="Giurgiu ">Giurgiu</option>
+            <option value="Gorj ">Gorj</option>
+            <option value="Harghita"> Harghita</option>
+            <option value="Hunedoara">Hunedoara</option>
+            <option value="Ialomița">Ialomița</option>
+            <option value="Iași ">Iași</option>
+            <option value="Ilfov ">Ilfov </option>
+            <option value="Maramureș"> Maramureș</option>
+            <option value="Mehedinți ">Mehedinți</option>
+            <option value="Mureș ">Mureș</option>
+            <option value="Neamț">Neamț</option>
+            <option value="Olt ">Olt</option>
+            <option value="Prahova"> Prahova</option>
+            <option value="Satu Mare"> Satu Mare</option>
+            <option value="Sălaj ">Sălaj</option>
+            <option value="Sibiu ">Sibiu</option>
+            <option value="Suceava ">Suceava</option>
+            <option value="Teleorman ">Teleorman</option>
+            <option value="Timiș ">Timiș</option>
+            <option value="Tulcea ">Tulcea</option>
+            <option value="Vaslui ">Vaslui</option>
+            <option value="Vâlcea ">Vâlcea</option>
+            <option value="Vrancea  ">Vrancea</option>
+        </select><br></br></div>
+
+<div class="input-container"><label>Oras:</label><br> <input type="text" name="oras" id="oras" onblur="verifica_oras()" placeholder="Oradea" ><br><br> </div>       
+
+<div class="input-container"><label>Data Nașterii:</label><br><input type="text" id="data" onblur="verifica_data()" placeholder="ZZ/LL/AAAA"><br><br></div>
+
+<div class="input-container"><label>telefon:</label><br><input type="tel" id="telefon" onblur="verifica_telefon()" placeholder="07********" > <br><br></div>
+
+<div class="input-container"><label>  Email:</label> <br><input  type="email" id="email" onblur="verifica_email()" placeholder="nume@domain.com" ><br><br></div>
+
+
+
+    
+
+<div class="input-container"><label>Articol:</label> <select  name="articol" >
+              <option value="1" selected>Hobby</option>
+            <option value="2">Melodia preferata</option>
+                      </select><br><br></div>
+    
+ 
+   
+<div class="input-container"><label>Clasificare:</label><select  name="clasificare" >
+              <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select><br><br></div>
+ 
+
+    
+<div class="input-container"><label> Abonează-te: </label> <input id="checkbox" type="checkbox" name="Subscribe" checked><br><br></div>
+    
+    
+    
+<div class="input-container"><label>Comentariu: </label> <br>  <textarea class=" " name="comment" placeholder="Adauga un comentariu" cols="40" rows="7"></textarea></div>
+
+<!--   butonul de trimitere formular -->
+<div class="input-container"><a id="left" class="btn trimite " onclick="verificaErori()" method="post"  > Trimitere</a>
+
+                    <!-- buton de reset formular   -->
+<a id="right" class="btn resetare" type="submit"  onclick="reset()" >Reseteaza</a></div>
+
+   
+</form>
+
+
+
+</div>
+
+<footer class="footer">
+    <div class="footer-container">
+        
+
+        <div class="footer-social">
+            <i id="insta-f" class="fab fa-instagram"></i>
+            <i id="face-f" class="fab fa-facebook-messenger"></i>
+            <i id="snap-f" class="fab fa-snapchat"></i>
+            <i id="twitt-f" class="fab fa-twitter"></i>
+            <i id="google-f" class="fab fa-google"></i>
+        </div>
+
+        <div class="copy">Illei Web Services &copy;2018</div>
+
+    </div>
+    
+</footer>
+
+<script type="text/javascript" src="../js/formular.js"></script>
+<script type="text/javascript" src="../js/modal.js"></script>
+<script type="text/javascript" src="../js/hamburger.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+</body>
+</html>

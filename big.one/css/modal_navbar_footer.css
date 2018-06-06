@@ -1,0 +1,432 @@
+/*Navbar-ul, footer-ul si modalul sunt stilizate aici pentru toate cele 4 pagini*/
+
+body{
+	
+	/*background: #f5f6f9;*/
+	    background: #f1f1f1;
+	background-size: cover;
+	position: relative;
+	margin:0;
+
+
+
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+	
+}
+
+/* Start Navbar*/
+
+
+
+
+.navbar{
+width: 100%;
+overflow: hidden;
+margin: auto;
+font-size: 16px;
+height:80px;
+position: fixed;
+z-index: 1;
+font-family: Lucida Console;
+border-bottom: solid 1px #F1F1F1;
+background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.nav-img{
+	width: 100%;
+	height: 1000px;
+	background: url(../img/nav.jpg);
+	background-size: cover;
+}
+
+.empty{
+	width: 100%;
+	height: 500px;
+	background: #fff;
+}
+/*Navbar inner*/
+.nav-inner{
+	height: 60px;
+	width: 80%;
+	padding:20px 0px;
+	margin:auto;
+}
+
+.navbar span{
+
+	padding: 10px 2px;
+	width: 200px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    color: white;
+    font-size: 25px;
+
+    
+}
+
+.navbar .nume2{
+	padding-left: 10px;
+	padding-top: 20px;
+	font-size: 18px;
+	color: white;
+	border-left: 1px solid #f0f0f0;
+	margin-left: 10px;
+}
+
+.navbar a{
+	padding: 12px 16px;
+    float: right;
+    width: auto;
+    border: none;
+    display: block;
+    color: white;
+    outline: 0;
+   
+}
+.navbar a:hover {
+	border-left: 1px solid #a2a2a2;
+	margin-right: 10px;
+	
+}
+.navbar label{
+	padding: 12px 16px;
+	margin-left: 10px;
+	margin-right: 30px;
+    float: right;
+   background: linear-gradient(#ffcc00,#febe1f);
+   color: white;
+   font-weight: 400;
+   font-style:  bold;
+    cursor: pointer;
+  
+}
+
+
+
+.navbar label:hover {
+
+	transform: translateY(6px);
+
+	} 
+    
+/*End navbar-inner*/
+/*End navbar*/
+
+.shadow{
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+/*HAMBURGER start*/
+.hamburger{
+	height: 300px;
+	width: 100%;
+	background:white;
+	position: fixed;
+	/*border-top: 1px solid #f0f0f0;*/
+	z-index: 1;
+
+}
+
+.hamburger-container{
+	width: 70%;
+	margin: auto;
+}
+
+.hamburger-container a{
+	width: 100%;
+	display: block;
+	color: blue;
+}
+
+.hamburger-container label{
+	width: 100%;
+	display: block;
+	color: blue;
+}
+
+#ham{
+	padding: 12px 16px;
+	font-size: 20px;
+    
+    float: right;
+    width: auto;
+    border: none;
+   display: none;
+    color: white;
+    outline: 0;
+    cursor: pointer;
+
+}
+#ham1{
+	font-size: 20px;
+	color: white;
+	padding: 12px 16px;
+    float: right;
+    width: auto;
+    border: none;
+   display: none;
+    outline: 0;
+    cursor: pointer;
+
+}
+
+#empty-hamburger{
+	width: 100%;
+	display: none;
+}
+
+/*Hamburger end*/
+
+/*Modal start*/
+#modal{
+
+	display:none; 
+}
+
+.modal{
+
+	padding-top: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 2;
+}
+
+.modal-content{
+
+	width: 600px; 
+    margin: auto;
+        padding: 50px 50px 50px 50px;
+    background: #232323;	
+    border-radius: 15px;
+}
+
+.modal-header{
+	height: 40px;
+}
+
+.modal-log-container{
+
+	margin: auto;
+	font-size: 200px;
+    color: #4a9d19;
+	
+	width: 300px;
+	padding-left: 90px;
+
+}
+
+.fa-address-card{
+	font-size: 200px;
+	color: #4a9d19;
+}
+
+.modal-form span{
+
+	float: right;
+	padding: 0px 10px;
+	cursor: pointer;
+	color: #757575;
+
+}
+
+
+
+
+.modal-form{
+
+	height: 500px;
+	width: 100%;
+   border-radius: 15px;
+    background: white;
+	
+}
+
+.modal-form form{
+
+	padding-top: 20px;
+    width: 100%;
+}
+
+.fa-user-secret{
+
+	width: 22px;
+	font-size: 30px;
+	position: absolute;
+	padding:0px 20px;
+	top: 15px;
+	left: 2px;
+}
+
+.fa-eye{
+	width: 22px;
+	font-size: 30px;
+	position: absolute;
+	padding:0px 20px;
+	top: 15px;
+	left: 2px;
+}
+
+.modal-class{
+	 background: white;
+	 position: relative;
+	 margin-top:20px;
+	 border-radius: 7px;
+	 margin-left: 20px;
+}
+.modal-form input{
+
+font-family: Ubuntu-Regular;
+    font-size: 20px;
+    color: #555555;
+    width: 80%;
+    height: 50px;
+    background: transparent;
+    padding: 0 10px 0 80px;
+    outline: none;
+    border: none;
+    border-bottom: 1px outset;
+}
+
+
+
+#log{
+	float: right;
+	width:150px;
+	padding: 20px 0px ;
+	background: #4A9E17;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+	font-style: italic;
+	line-height: 8px;
+	margin-right: 10px;
+	cursor: pointer;
+	margin-bottom: 50px;
+	opacity: 2;
+}
+
+	
+
+
+
+.modal-succes{
+	font-size: 20px;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #00FF00;
+	width: 300px;
+	margin: auto;
+	padding-top: 100px;
+	display: none;
+}
+
+.footer{
+	background: #202020;
+	height: 40px;
+	
+	clear: right;
+	font-size: 20px;
+	color: white;
+
+}
+
+
+
+/* Social part of footer*/
+.footer-social{
+	height: 40px;
+	padding-right: 100px;
+	float: right;
+
+
+	/*position: absolute;
+	left: 1200px;
+	bottom: 10px;*/
+}
+
+.footer-container{
+	width: 90%;
+	margin: auto;
+}
+
+.copy{
+	padding: 10px 0px 0px 60px;
+}
+
+#insta-f{
+	font-size: 20px;
+	padding: 10px 0px 0px 35px;
+	color: #f77737;
+	cursor: pointer;
+}
+
+#insta-f :hover{
+	
+	color: red;
+	transform: translateY(20px);
+
+}
+
+#face-f{
+font-size: 20px;
+padding: 10px 0px 0px 35px;
+
+color: #3B5998;
+cursor: pointer;
+}
+
+#face-f :hover{
+	color: red;
+	transform: translateY(20px);
+
+}
+
+#snap-f{
+font-size: 20px;
+padding: 10px 0px 0px 35px;
+
+cursor: pointer;
+}
+#snap-f :hover{
+	color: red;
+	transform: translateY(20px);
+}
+
+#twitt-f{
+font-size: 20px;
+padding: 10px 0px 0px 35px;
+
+color: #3CF;
+cursor: pointer;
+}
+
+#twitt-f :hover{
+	color: red;
+	transform: translateY(20px);
+
+}
+
+#google-f{
+	font-size: 20px;
+	padding: 10px 0px 0px 35px;
+	
+	color: #DC4A38;
+	cursor: pointer;
+}
+
+#google-f :hover{
+	color: red;
+	transform: translateY(20px);
+}
+/*End of social part*/

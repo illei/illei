@@ -1,0 +1,50 @@
+@media screen and (max-width: 480px){
+
+.myForm	{
+	width: 350px;
+	height: 950px;
+}
+
+.myForm label {
+	font-size: 20px;
+}
+
+#right{
+
+	 padding: 10px 20px 10px 20px;
+}
+
+.btn {
+   
+    padding: 10px 20px 10px 20px;
+    background: #4a9d19;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: Lucida Console;
+    font-size: 15px;
+    }
+textarea{
+	margin: 0;
+}
+
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+.myForm	{
+	width: 92vw;
+	height: 950px;
+}
+
+.myForm label {
+	font-size: 20px;
+}
+
+.btn{
+	 padding: 10px 20px 10px 20px;
+}
+
+
+}

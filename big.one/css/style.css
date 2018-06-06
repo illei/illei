@@ -1,0 +1,451 @@
+body{
+
+background: linear-gradient(to right, #373b44, #4286f4);
+
+}
+ /* container site*/
+
+.site-wrapper{
+	margin-bottom: 50px;
+    padding-top: 150px;	
+    width: 87%;
+    height: 1400px;
+    margin: auto;
+
+}
+
+/*Slideshow*/
+{box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 90%;
+  position: relative;
+  margin: auto;
+ }
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+    width: 80%;
+    margin: auto;
+}
+.mySlides img{
+	height: 500px;
+    width: 100%;
+
+}
+/* Next & previous buttons */
+
+/* Next & previous buttons */
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+/*Start left side*/
+
+.content{
+	float: left;
+	width: 46%;
+}
+
+.content-right{
+	float: right;
+	width: 46%;
+	
+
+}
+
+
+.news
+{
+	height: 600px;
+	background-color: white;
+	position: relative;
+	font-family: Georgia;
+	border-radius: 10px;
+	margin-bottom: 40px;
+
+}
+
+.news p{
+	text-align: justify;
+}
+
+.news-img-container{
+	height: 300px;
+	border-bottom: 1px solid #f0f0f0;
+	
+	background-size: cover;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+
+}
+
+.mywebsite{
+	background-image: url(../img/street.jpg);
+}
+
+.myPc{
+	background-image: url(../img/colours.jpg);
+}
+
+.myCode{
+	background-image: url(../img/Learntocode.jpg);
+
+}
+
+.news-middle{
+	height: 400px;
+	
+
+}
+
+.news-middle-container{
+	width: 85%;
+	height: 400px;
+	margin:auto;
+}
+
+.news-middle-container h1{
+	font-family: Open Sans;
+	font-weight: 400;
+	padding: 30px 0px 0px 0px;
+	
+}
+
+.news-middle-container a {
+	color: #de1a1a;
+
+}
+
+.news-footer{
+	height: 90px;
+}
+
+.inner-footer{
+	width: 100%;
+	
+	padding-top: 50px;
+	
+	font-family: Lucida Console;
+	background: white;
+	margin: auto;
+}
+
+.inner-footer-button{
+	background:#555;
+	color: white;
+	padding: 7px 17px;
+	border-radius: 200px;
+	cursor: pointer;
+}
+
+.post-time{
+	border-bottom: 1px dotted #999;
+	float: right;
+    font-size: 20px;
+}
+
+.inner-footer-button:hover{
+	background-color: ;
+}
+
+/*End left side*/
+
+/*Start right side*/
+.scope{
+
+	width: 95%;
+	margin: auto;
+	background: #fff;
+    margin-bottom: 30px;
+    background:#fdfdfd;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 40px;
+    font-family: Lucida Console;
+    font-weight: 400;
+    
+   
+}
+
+.scope h3{
+	font-size: 25px;
+	color:#666; 
+	padding-top: 60px;
+	width: 40%;
+	text-align: center;
+	margin: auto;
+
+}
+.item-scope{
+
+	width:50%;
+	border: none;
+    outline: none;
+    float: right;
+}
+
+.social{
+	height: 250px;
+
+}
+/*Butoane social*/
+.follow{
+	height: 140px;
+	border-bottom: 1px solid #f0f0f0;
+	
+}
+
+.follow-scope{
+	height: 110px;
+	background: white;
+}
+
+.follow-contaier{
+
+	width: 400px;
+	margin: auto;
+
+}
+
+#awsome{
+
+}
+
+#insta{
+	font-size: 30px;
+	padding: 30px 0px 0px 35px;
+	color: #f77737;
+	cursor: pointer;
+}
+
+#insta :hover{
+	
+	color: red;
+	transform: translateY(20px);
+
+}
+
+#face{
+font-size: 30px;
+padding: 30px 0px 0px 35px;
+
+color: #3B5998;
+cursor: pointer;
+}
+
+#face :hover{
+	color: red;
+	transform: translateY(20px);
+
+}
+
+#snap{
+font-size: 30px;
+padding: 30px 0px 0px 35px;
+
+cursor: pointer;
+}
+#snap :hover{
+transform: translateY(20px);
+
+	color: red;
+}
+
+#twitt{
+font-size: 30px;
+padding: 30px 0px 0px 35px;
+
+color: #3CF;
+cursor: pointer;
+}
+
+#twitt :hover{
+	color: red;
+	transform: translateY(20px);
+
+
+}
+
+#google{
+	font-size: 30px;
+	padding: 30px 0px 0px 35px;
+	
+	color: #DC4A38;
+	cursor: pointer;
+}
+
+#google :hover{
+	color: red;
+	transform: translateY(20px);
+
+}
+
+/* End scoial*/
+
+/*Popular posts*/
+.posts-img{
+	border-radius: 200px;
+	padding: 5px 0px 0px 0px;
+	margin-left: 30px;
+	clear: right;
+}
+
+.post-link{
+	cursor: pointer;
+	width: 60%;
+	float: right;
+	color: #de1a1a
+}
+
+.post1{
+	height: 140px;
+	border-bottom: 1px solid #f0f0f0;
+	
+}
+
+.post2{
+	height: 110px;
+	border-bottom: 1px solid #f0f0f0;
+	background: white;
+}
+
+.post3{
+	height: 110px;
+	border-bottom: 1px solid #f0f0f0;
+	background: white;
+}
+
+.post4{
+	height: 110px;
+	border-bottom: 1px solid #f0f0f0;
+	background: white;
+}
+
+.post5{
+	height: 110px;
+	border-bottom: 1px solid #f0f0f0;
+	background: white;
+}
+
+
+
+.topic1{
+	height: 140px;
+	border-bottom: 1px solid #f0f0f0;
+	
+
+}
+
+.topic2{
+	height: 50px;
+	border-bottom: 1px solid #f0f0f0;
+	background: white;
+
+}
+
+.topic3{
+	height: 50px;
+	border-bottom: 1px solid #f0f0f0;
+	background: white;
+
+}
+
+.topic4{
+	height: 50px;
+	border-bottom: 1px solid #f0f0f0;
+	background: white;
+
+}
+
+.topic5{
+	height: 50px;
+	border-bottom: 1px solid #f0f0f0;
+	background: white;
+
+}
+
+.topic6{
+	height: 50px;
+	border-bottom: 1px solid #f0f0f0;
+	background: white;
+
+}
+
+.topics p{
+	color: #666666;
+	cursor: pointer;
+	padding:  10px 0px 0px 10px;
+	
+	
+
+}
+
+.topics p:hover{
+	margin-left: 20px;
+	border-left: 2px solid red;
+}
+
+/*End right sise*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
