@@ -1,0 +1,100 @@
+
+.site-wrapper{
+	margin-bottom: 50px;
+    padding-top: 70px;	
+    width: 1225px;
+   padding-bottom: 100px;
+    margin: auto;
+}
+
+
+
+.position{
+	position: absolute;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+h2{
+	text-align: center;
+	font-style: oblique;
+	color: #141514;
+
+}
+
+/*Content Style*/
+.content{
+
+	height: 550px;
+	width: 700px;
+	margin: auto;
+	background-color: white;
+	position: relative;
+	font-family: Georgia;
+	border-radius: 10px;
+	margin-bottom: 80px;
+	background-color: white;
+}
+
+
+.title{
+	width: 100%;
+	margin: auto;
+}
+
+.video{
+	width:500px;
+	margin: auto;
+	padding: 50px 0px 50px 0px;
+}
+
+.video iframe{
+	border-radius: 10px;
+	border: 1px solid;
+	height: 300px;
+	width: 500px;
+}
+
+
+ .content a :hover{
+	transform: translateY(4px);
+}
+
+.fa-facebook-f{
+
+	font-size: 20px;
+	color: white;
+
+
+}
+
+.trap-facebook{
+	width: 150px;
+	padding: 10px;
+	background:#4266b2;
+	border-radius: 7px;
+	margin: auto; 
+	font-style: italic;
+	cursor: pointer;
+	position: relative;
+}
+.trap-facebook span{
+	position: absolute;
+	left: 40px;
+	color: white;
+	padding-left: 10px;
+}
+
+
+/*End content style*/
+
+
+
+
+
+
+
+

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Galerie</title>
+	<link rel="stylesheet" type="text/css" href="../css/galerie.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../css/modal_navbar_footer.css">
+  <link rel="stylesheet" type="text/css" href="../css/meniu_modal_hamburger_footer_responsive.css">
+</head>
+<body>
+
+  <div id="navbar" class="navbar">
+
+    <div class="nav-inner"> 
+      <div class="title-container"><span class="nume"> Illei Adrian </span>
+      <span class="nume2">Blog</span>
+      <div id="ham" > <i  onclick="show()" class="fas fa-bars" ></i></div>
+      <div id="ham1" > <i  onclick="close_ham()" class="fas fa-times"  ></i></div>
+
+    </div>
+
+      <label onclick="open_modal()">Welcome back, Login</label>
+      <a href="Melodia.html" style=";">Favorite Song</a>
+      <a href="hobby.html">Hobby's</a>
+      <a href="review.html">Review</a>
+      <a href="index.html"> Home</a>
+    </div>
+
+  </div>
+
+  <div id="empty-hamburger" ></div>
+
+
+  
+<div id="hamburger" style="display: none;" class="hamburger shadow">
+    
+    
+      
+      
+      
+      <div class="hamburger-holder" onclick="location.href='Melodia.html'"><a href="Melodia.html" style=";">Melodia Preferata</a></div>
+      <div class="hamburger-holder" onclick="location.href='hobby.html'"><a href="hobby.html">Hobby-uri</a></div>
+      <div class="hamburger-holder" onclick="location.href='review.html'"><a href="review.html">Review</a></div>
+      <div class="hamburger-holder" onclick="location.href='index.html'"><a href="index.html"> Home</a></div>
+      <div class="hamburger-holder hamburger-login" onclick="open_modal()"><a onclick="open_modal()">Welcome back, Login</a></div>
+    
+    
+</div>
+
+<div id="modal"  class="modal shadow">
+    
+  <div class="modal-content">
+
+    <div class="modal-form">
+      <span onclick="close_modal()">X</span>
+
+      <form id="form">
+        <div class="modal-log-container"><i class="fas fa-address-card"></i></div>
+
+        <div style="" class="modal-class"><i class="fas fa-user-secret"></i>  <input  type="text" name="User" id="user" placeholder="User"></div><br>
+        <div class="modal-class"><i onmousedown="reveal()" onmouseup="hide()" class="fas fa-eye"></i> <input type="password" name="pass" id="pass" placeholder="Password"></div><br>
+        <span id="log" onclick="log_in()"  name="Login" value="Login">Login</span>
+
+      </form>
+
+      <div class="modal-succes"><h3> Autentificare Reusita,<br>Bine ai revenit</h3></div>
+
+    </div>
+
+    <div class="modal-footer">
+        
+    </div>
+
+  </div>
+
+</div>
+
+
+  <div  class="empty"></div>
+<div class="site-wrapper">
+
+
+	<div class="galerie ">
+           <div class="mySlides ">
+            <div class="numbertext">1 / 4</div>
+            <img src="../img/illei.jpg" >
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="../img/your-website.jpg" ">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="../img/learn-to-code.jpg" ">
+          </div>
+            
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="../img/football.jpg" >
+          </div>
+
+            
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+
+        
+      </div>
+
+
+        
+
+  </div>
+
+ </div> 
+
+  <footer class="footer">
+  <div class="footer-container"></div>
+  <div class="footer-social">
+        <i id="insta-f" class="fab fa-instagram"></i>
+        <i id="face-f" class="fab fa-facebook-messenger"></i>
+        <i id="snap-f" class="fab fa-snapchat"></i>
+        <i id="twitt-f" class="fab fa-twitter"></i>
+        <i id="google-f" class="fab fa-google"></i>
+      </div>
+      <div class="copy">Illei Web Services &copy;2018</div>
+  
+  
+</footer>
+
+
+<script type="text/javascript" src="../js/modal.js"></script>
+<script type="text/javascript" src="../js/hamburger.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../js/galerie.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+
+
+.content {
+
+	height: 600px;
+	width: 97%;
+	margin: auto;
+	margin-bottom: 50px;
+	font-family: Georgia;
+	
+	background: white;
+
+}
+
+.img-container{
+
+	height: 45%;
+	border-bottom: 1px solid #f0f0f0;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+
+}
+
+.inot{
+
+	background-image: url(../img/inot2.jpg);
+	background-size: cover;
+}
+
+.jogging{
+
+	background-image: url(../img/jogging.jpg);
+	background-size: cover;
+
+}
+
+.football{
+
+	background-image: url(../img/football.jpg);
+	background-size: cover;
+
+
+}
+
+.bodybuilding{
+
+	background-image: url(../img/gym.jpeg);
+	background-size: cover;
+}
+
+.content-text{
+
+	height: 55%;
+	width: 100%;
+	background: #fdfdfd;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+
+.content-text h3{
+
+	font-family: Lucida Console;
+	font-weight: 700;
+	width: 80px;
+	margin: auto;
+	padding-top: 10px;
+}
+
+.content-text p{
+
+	font-family: Georgia;
+	font-size: 16px;
+	width: 90%;
+	margin: auto;
+	padding-top: 30px;
+	text-align: justify;
+}
