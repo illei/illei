@@ -14,6 +14,20 @@ background: linear-gradient(to right, #373b44, #4286f4);
 
 }
 
+
+.empty{
+	width: 100%;
+	height: 500px;
+	background: #fff;
+	padding-top: 30px;
+	font-family: Lucida Console;
+}
+
+.empty h2{
+	float: right;
+	padding-top: 300px;
+}
+
 /*Slideshow*/
 {box-sizing:border-box}
 
