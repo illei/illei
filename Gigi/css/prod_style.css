@@ -1,0 +1,456 @@
+body{
+	background-color:rgba(241,241,241,0.4);
+
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.side-container{
+
+	width:255px;
+	 height: -webkit-fill-available;
+	 float: left;
+
+}
+
+
+/* container  big part */
+.anunt{
+	margin-top: 20px;
+	width: 600px;
+	height:1075px;
+	display:block;
+	float:left;
+	background-color: #ffffff;
+	margin-left: 10%;
+	border-width: 2px;
+	
+}
+/* container butoanele de mesaj si telefon + pret  */
+.contact{
+	position: fixed;
+	left:75%;
+	margin-top: 20px;
+	width: 290px;
+	height:300px;
+	display:block;
+	float:right;
+	background-color: #ffffff;
+	border-width: 2px;
+}
+/*container message*/
+#message{
+	position: relative;
+	margin-top: 100px;
+	width: 600px;
+	height:338px;
+	display:block;
+	float:left;
+	background-color: #ffffff;
+	
+	border-width: 2px;
+	margin-bottom: 100px;
+}
+/* Umbrele */
+.shadow{
+	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);	
+
+}
+/* container Titlul , locatie si timp */
+.main-info{
+	width: 90%;
+	height: 150px;
+	margin: auto;
+	
+}
+/* TITLU */
+.main-info h3{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 90%;
+	margin: auto;
+	text-align: justify;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	
+}
+
+.second-info{
+	width: 95%;
+	margin: auto;
+	height: 70px;
+	position: relative;
+}
+
+/* partea pt locatie */
+#location{
+	width: 70%;
+	float: left;
+}
+
+/* partea de timp*/
+#time
+{
+width: 70%;
+clear: both;	
+float: left;
+}
+/* BUtton pt trasnport */
+#transport{
+	line-height: 35px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 90%;
+	transform: translate(-50%, -50%);
+	height: 40px;
+	width: 100px;
+	text-align: center;
+	border-width: 2px;
+	border-color: #0d47a1;
+	border-style: solid;
+	border-radius: 3px ;
+	color: #0d47a1;
+	float: right;
+}
+/* effect buton transport */
+#transport:hover{
+	background-color: #0d47a1;
+	color: white;
+	
+}
+/* Container galerie */
+.galerie{
+	height: 400px;
+	position: relative;
+	margin-top: 0px;
+	/*: #eeeeee;*/
+	 
+	background-color:rgba(241,241,241,0.4);
+}
+/*SLIDE SHOWWWWW */
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  height: 400px;
+  
+}
+.mySlides img{
+			
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: 90%;
+	padding-top: 5%;
+
+
+
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+	cursor: pointer;
+  
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 220px;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  }
+
+/* Container for small images underlow */
+.caption-container {
+	/*margin-top: 100px;*/
+  height: 135px;
+  width:510px;
+  margin: auto;
+  border-bottom:  1px solid #a9a9a9;
+
+ 
+}
+/* Dimensiunile pozelor Index de la galerie( de sub galerie) */
+#cap1, #cap2, #cap3, #cap4{
+	width: 100%;
+	height: 110px;
+	
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 120px;
+ 
+  margin-left: 5px;
+}
+
+.column img{
+	border-radius: 10px;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+/* Container pt partae cu informatii  */
+.infor{
+	width: 90%;
+	margin:auto;
+	margin-bottom: 100px;
+}
+
+/*container tip*/
+.tip{
+	height: 70px;
+
+}
+
+/* titlu de apartenenta ( din ce calsa apartine) */
+.tip span{
+	width: 70px;
+	float: left;
+	font-size: 20px;
+	color: gray;
+	margin-top: 10px;
+
+/* titlu de apartenenta ( din ce calsa apartine) */
+}
+.tip h4{
+	float: left;
+	font-size: 20px;
+	border-bottom-style: groove;
+	font-weight: bold;
+}
+/*Container  de informatii generale*/
+.descriere{
+	margin-left: 5px;
+}
+/*TItlu informatii generale*/
+.descriere span{
+	font-weight: bold;
+}
+/* si bine inteles... informatiile  generale*/
+.descriere p{
+	text-align: left;
+	margin-right: 5px;
+}
+/* container buton de social....ups*/
+.social{
+	height: 200px;
+	position: relative;
+	
+}
+/*butonul in sine... te rog nu ma pune sa il mai desfac:)))*/
+.social span{
+	position: absolute;
+	top: -2px;
+	left: 30%;
+	width: 250px;
+	height: 50px;
+	background-image: url(fb.png);
+	/*background-color: rgba(67,108,161,1);*/
+	
+
+}
+/*efectul pt butonul social*/
+.social span :hover{
+
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+	transform: translateY(4px);
+}
+
+/* pretul*/
+#pret{
+    position: absolute;
+    top:20px;
+    left: 25%;
+    font-size: 30px;
+    
+    font-weight: bold;
+    color: #f44336;
+    text-align: right;
+}
+/*butonul de telefon*/
+#telephone{
+	position: absolute;
+	border-style: solid;
+	width: 80%;
+	height: 60px;
+	top: 110px;
+	left: 10%;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 22px;
+	border-radius: 5px;
+	border-width: 2px;
+	background: #619bf2;
+	color: white;
+
+}
+/*imaginea din buton acel etern si epic SVG*/
+#telephone img{
+	height: 20px;
+	width: 20px;
+}
+
+/*BUtonul de redirectionare la  partea de jos cu mesajul*/
+#send{
+	position: absolute;
+	border-style: solid ;
+	width: 80%;
+	height: 60px;
+	top: 200px;
+	left: 10%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 21px;
+	color: white;
+	line-height: 55px;
+	border-radius: 5px;
+	border-width: 2px ;
+	background: #f44336;
+}
+/*acel svg din buton*/
+#send img{
+	height: 20px;
+	width: 20px;
+}
+/*efectul butonului*/
+#send:hover{
+	background-color: rgba(244, 67, 54, 0.9);
+	transform: translateY(4px);
+}
+/*efectul butonului*/
+#telephone:hover{
+	background-color: rgba(97, 155, 242, 0.9);
+	transform: translateY(4px);
+}
+/*mini titlul din cadrul  boxului de mesaj*/
+.prod {
+	font-size: 13px;
+	height: 150px;
+	width: 40%;
+	padding-left: 20px;
+	border-bottom: 1px solid #a9a9a9;
+	padding-top: 10px;
+}
+/*titlu de ID*/
+#message h4{
+	position: absolute;
+	padding-left: 20px;
+	width: 10%;
+	margin-right: 0;
+	color:#a9a9a9;
+}
+/*Id-ul produslui din 6 cifre presupun*/
+#ID{
+	position: absolute;
+	padding-left: px;
+	width: 10%;
+	left: 50px;
+	font-weight: bold;
+	font-size: 15px;
+
+	
+}
+/*cassuta de email*/
+#message input{
+	position: absolute;
+	top: 40px;
+	left:280px;
+	width: 280px;
+	height: 40px;
+
+}
+/*casuta pentru text*/
+#message textarea{
+	position: absolute;
+	left:280px;
+	top: 100px;
+	color: #212121;
+	padding-right: 10px;
+    padding-left: 10px;
+    width: 280px;
+    height: 150px;
+    
+}	
+/* butonul de trimitere al mesajului*/
+#Trimite {
+	position: absolute;
+	height: 50px;
+	width: 150px;
+	left: 415px;
+	top: 260px;	
+	border: 1px solid;
+	text-align: center;
+	line-height: 45px;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 5px;
+	border-width: 2px;
+	background: #f44336;	
+	color: white;
+}
+	
+/*efectul butonului*/
+#Trimite:hover{
+	background-color: rgba(244, 67, 54, 0.9);
+	transform: translateY(4px);
+}
+
+
+
+
+
+
+

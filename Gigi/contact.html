@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<title>GiGi</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<style>
+
+</style>
+<body >
+
+
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Inchide Meniul</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>GiGi<br>Import Austria</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="/index.html#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Recomandate</a> 
+    <a href="/index.html#recente" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Recente</a> 
+    <a href="/index.html#cuptoare" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Cuptoare</a> 
+    <a href="/index.html#rafturi" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Rafturi</a> 
+    <a href="/index.html#frigidere" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Frigidere</a> 
+    <a href="/index.html#alte_echipamente" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Alte echipamente</a>
+    <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px;max-width: 1000px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Top header -->
+  <header class="w3-container w3-xlarge">
+    <p class="w3-left w3-text-red w3-xxlarge" style="font-weight: 800">Contact</p>
+    <p class="w3-right">
+    </p>
+  </header>
+
+<div class="w3-container w3-animate-opacity" style="padding:64px 16px" id="contact">
+  <h3 class="w3-center">Depozit central</h3>
+  <p class="w3-center"> - Cheresig, Bihor - </p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-center">
+      
+      <div class="w3-hide-large">
+        <hr>
+        <a href="tel:+40359463496" class="w3-hover-blue w3-hover-shadow w3-button w3-round" style="text-decoration: none;cursor:pointer;font-size: 20px;">Fax: +4 0359-463.496</a>
+        <hr>
+      </div>
+      <a href="tel:+40359467757" class="w3-hover-blue w3-hover-shadow" style="cursor:pointer;font-size: 20px;text-decoration: none;padding:13px 21px 10px 16px;"><i style="top:5px;position: relative;" class="fa fa-phone fa-fw w3-xxlarge"></i>Telefon: +4 0359-467.757</a><br><br>
+      <p style="font-size: 20px"><i class="fa fa-map-marker fa-fw w3-xxlarge w3-text-red"></i> Cheresig, nr. 17, 410491</p>
+      
+      <div id="gmaps" class="w3-round-large w3-greyscale" style="margin: 30px 0;">
+        <img src="./img/Map.jpg" style="height:auto;">
+      </div>
+      <a href="mailto:oradea@helion.ro" style="text-decoration: none;"><i style="top:5px;position: relative;color: #2196F3;" class="fa fa-envelope fa-fw w3-xxlarge w3-text-blue"> </i> Email: gigi@gmail.com</a>
+
+      <br>
+    </div>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-border" type="text" placeholder="Nume" required="" name="Name"></p>
+        <p><input class="w3-input w3-border" type="email" placeholder="Adresa dumneavoastra de e-mail" required="" name="Email"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Subiect" required="" name="Subject"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Mesaj" required="" name="Message"></p>
+        <p>
+          <button class="w3-button w3-black" type="submit">
+            <i class="fa fa-paper-plane"></i> Trimite mesajul
+          </button>
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+</div>
+<script>
+// ok=1;
+// // Accordion 
+// function showCategory(target) {
+//     var x = document.getElementById(target);
+//     if (x.className.indexOf("w3-show") == -1) {
+//         x.className += " w3-show";
+//     } else {
+//         x.className = x.className.replace(" w3-show", "");
+//     }
+// }
+
+// function w3_toggle(){
+// if(ok) 
+//   {
+//     w3_open();
+//   }
+//   else{
+//     w3_close();
+//   }
+// }
+// //sidebar
+// function w3_open() {
+//     document.getElementById('menu_button').classList.toggle('change');
+//     document.getElementById("mySidebar").style.display = "block";
+//     document.getElementById("myOverlay").style.display = "block";
+//     ok=0;
+// }
+ 
+//  function w3_close() {
+//     document.getElementById('menu_button').classList.toggle('change');
+//     document.getElementById("mySidebar").style.display = "none";
+//     document.getElementById("myOverlay").style.display = "none";
+//     ok=1;
+//  }
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+</script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
+</body>
+</html>
