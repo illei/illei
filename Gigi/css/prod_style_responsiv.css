@@ -1,5 +1,10 @@
 @media screen and (min-width: 320px) and (max-width: 480px){
 
+.prod{
+width: 100%;
+height: 50px;
+
+}
 
 .content{
 	padding-top: 407px;
@@ -84,7 +89,7 @@
 #Trimite{
 	left: 50%;
     top: 86%;
-}
+
 }
 
 .mySlides{
@@ -101,11 +106,7 @@
 	top: 157px;
 }
 
-.prod{
-width: 100%;
-height: 50px;
 
-}
 #time{
 	position: absolute;
     top: 37px;
