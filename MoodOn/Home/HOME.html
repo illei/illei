@@ -31,6 +31,19 @@
         <script src="./HOME_files/elevatezoom.js.descărcare"></script>
         <script src="./HOME_files/notify.js.descărcare"></script>
 
+         <style type="text/css">
+        	@keyframes fade-in {
+        	    from {opacity: 0; transform: scale(.7,.7)}
+        	    to {opacity: 1;}
+        	}
+        	.fade-in-element {
+        	  animation: fade-in 1.4s;
+        	}
+        	.hidden {
+        	  opacity: 0;
+        	}
+        </style>
+
         <!-- <style type="text/css" id="notify-bootstrap">.notifyjs-bootstrap-base {
 	font-weight: bold;
 	padding: 8px 15px 8px 14px;
@@ -318,7 +331,7 @@
 
 		 <div class="row p-3">
 			
-			 <div class="col-xl-6 col-lg-6 abc " style="" >
+			 <div class="col-xl-6 col-lg-6 abc hidden " style="" >
 		 	 	 <div class=" col-md-12">
 		 		 <h3 style="  border-bottom: 2px solid gray; "class="mx-auto text-center col-xl-4 col-lg-4 col-md-3 col-sm-4 col-6 ">Something</h3>
 		 	 	 <p class="mx-auto text-center col-xl-10 col-lg-12 col-md-6 col-sm-8">
@@ -331,10 +344,10 @@
 
 		 	 <div class="col-xl-6 col-lg-6   ">
 		 		<img src="./HOME_files/1531125776Coperta 2.jpg"width="1000" height="800" 
-		 		style=" margin: 0 auto;  border:3px solid pink;" class="img-fluid" alt="Responsive image"  >
+		 		style=" margin: 0 auto;  border:3px solid pink;" class="img-fluid hidden" alt="Responsive image"  >
 		 	 </div>
 
-		 	 <div class="col-xl-6 col-lg-6  bca"  >
+		 	 <div class="col-xl-6 col-lg-6 hidden bca"  >
 		 	 	 <div class=" col-md-12">
 		 		 <h3 style="  border-bottom: 2px solid gray; "class="mx-auto text-center col-xl-4 col-lg-4 col-md-3 col-sm-4 col-6 ">Something</h3>
 		 	 	 <p class="mx-auto text-center col-xl-10 col-lg-12 col-md-6 col-sm-8">
@@ -347,9 +360,9 @@
 
 		 </div>
 
-		 <div class="row p-3" >
+		 <div class="row p-3 " >
 
-		 	 <div class="col-xl-3  col-lg-3 col-md-12">
+		 	 <div class="col-xl-3  col-lg-3 col-md-12 hidden">
 		 		<h3 style="  border-bottom: 2px solid gray; "class="mx-auto text-center  col-lg-10 col-md-3 col-sm-4 col-xs-2 col-6">Something</h3>
 		 	 	<p class="mx-auto text-center col-xl-10 col-lg-12 col-md-6 col-sm-8">
 		 	 		Bohemian spirits, however, extremely down to earth when it comes to the reality of modern day fashion, we sculpted evening gowns able to bring out the best of all silhouettes, concentrating on elegant creations with eminently feminine lines, to celebrate, as it should, the fair sex. All Mood'On designs from our site equal uniqueness and exclusivity, the gowns of our brand are, entirely, the fruit of our hard work, and also a fabulous mix of 
@@ -360,7 +373,7 @@
 
 		 	 </div>
 
-		 	 <div class="col-xl-6 col-lg-6 ">
+		 	 <div class="col-xl-6 col-lg-6 hidden">
 
 		 	 	<img src="./HOME_files/1531125776Coperta 2.jpg"width="600"height="800" 
 		 		 class=" img-fluid d-block mx-auto " alt="Responsive image" >
@@ -368,7 +381,7 @@
 
 		
 
-		 	 <div class="col-xl-3  col-lg-3 col-md-12">
+		 	 <div class="col-xl-3  col-lg-3 col-md-12 hidden">
 		 		<!-- <h3 style="  border-bottom: 2px solid gray; "class="mx-auto text-center col-lg-10 col-md-3 col-sm-4 col-6">Something</h3> -->
 		 	 	<p style="padding-top: 30px;" class="mx-auto text-center col-xl-10 col-lg-12 col-md-6 col-sm-8 bca">
 		 	 		Bohemian spirits, however, extremely down to earth when it comes to the reality of modern day fashion, we sculpted evening gowns able to bring out the best of all silhouettes, concentrating on elegant creations with eminently feminine lines, to celebrate, as it should, the fair sex. All Mood'On designs from our site equal uniqueness and exclusivity, the gowns of our brand are, entirely, the fruit of our hard work, and also a fabulous mix of 
@@ -382,7 +395,7 @@
 
 		 	 
 
-		 	 <div class="col-xl-6 ">
+		 	 <div class="col-xl-6 hidden">
 		 	 	<div class=" col-md-12">
 		 		<h3 style="  border-bottom: 2px solid gray; "class="mx-auto text-center col-xl-4 col-lg-2 col-md-3 col-sm-4 col-6">Something</h3>
 		 	 	<p class="mx-auto text-center col-xl-10 col-lg-6 col-md-6 col-sm-8">
@@ -394,7 +407,7 @@
 
 		 	<div class="col-xl-6 ">
 		 		<img src="./HOME_files/1531125776Coperta 2.jpg"width="1200" height="800" 
-		 		style=" margin: 0 auto;" class="img-fluid" alt="Responsive image" >
+		 		style=" margin: 0 auto;" class="img-fluid hidden" alt="Responsive image" >
 		 	 </div>
 
 		 </div>
@@ -633,7 +646,7 @@
       <button class="btn btn-primary float-right order_button" disabled="">Buy</button>
 </div>
 <button type="button" style="opacity: 0;" data-dismiss="modal" id="cart-close"> x </button>
-<script>
+<!-- <script> 
     var cart = {
         init: function() {
           cart.icon = document.querySelector('.cart_bar a');
@@ -854,7 +867,39 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
+
+        <script type="text/javascript">
+	var animateHTML = function () {
+  var elems,
+    windowHeight
+  var init = function () {
+    elems = document.getElementsByClassName('hidden')
+    windowHeight = window.innerHeight
+    _addEventHandlers()
+  }
+  var _addEventHandlers = function () {
+    window.addEventListener('scroll', _checkPosition)
+    window.addEventListener('resize', init)
+  }
+  var _checkPosition = function () {
+    for (var i = 0; i < elems.length; i++) {
+      var posFromTop = elems[i].getBoundingClientRect().top
+      if (posFromTop - windowHeight <= -1) {
+        elems[i].className = elems[i].className.replace('hidden', 'fade-in-element')
+      }
+
+    }
+  }
+  return {
+    init: init
+  }
+}
+animateHTML().init()
+
+
+</script>
+
 		
         <script src="./HOME_files/app.js.descărcare"></script>
         <script src="./HOME_files/custom.js.descărcare"></script>
