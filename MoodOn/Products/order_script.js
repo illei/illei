@@ -1,0 +1,1 @@
+var rates = document.getElementsByName('size');
