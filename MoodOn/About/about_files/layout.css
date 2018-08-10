@@ -327,6 +327,28 @@
 
 }
 
+@media screen and (max-width:399px) {
+	
+	.bottom-left-img{
+		height: 300px;
+		width: 300px;
+		margin: auto;
+		margin-bottom: 50px;
+
+	}
+	
+
+	.bottom-right-img{
+		height: 300px;
+		width: 300px;
+		margin: auto;
+		margin-bottom: 50px;
+
+	}
+ 
+
+}
+
 @media screen and (min-width: 481px) and (max-width: 768px) {
 	.container-main{
 		width: 100%;
