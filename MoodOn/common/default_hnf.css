@@ -150,7 +150,10 @@ label span {
 
 }
 /*Navbar style End*/
-
+::placeholder {
+    color: red;
+    opacity: 1; /* Firefox */
+}
 /*Footer common*/
 
 
@@ -219,6 +222,14 @@ label span {
 
 }
 
+::placeholder {
+    color: red;
+    opacity: 1; /* Firefox */
+}
+
+
+
+
 .mini_image_box .container {
     overflow-y: hidden;
     overflow-x: auto;
@@ -266,6 +277,11 @@ label span {
     cursor: pointer;
     color: black;
     cursor: pointer;
+}
+
+.social-container{
+
+	width: 160px;
 }
 
 .product-view {
