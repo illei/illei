@@ -53,6 +53,19 @@ header .padder-right{
 
 }
 
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: gray;
+    opacity: 0.7; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: red;
+}
+
 header .burger_frontend {
 	position: relative;
 	top: -20px;
@@ -87,8 +100,8 @@ header .burger_frontend .burger-icon span.burger-line {
 #burger_menu nav {padding:10px 0;margin:0;}
 #burger_menu nav a { display: block; color: #444; font-size: 20px; }
 #burger_menu nav div a { color: #777; font-size: 14px; }
-#burger_menu nav a:hover {  background-color: rgba(255,255,255,0.2);}
-#burger_menu nav a:hover {  background-color: rgba(255,255,255,0.1);}
+/*#burger_menu nav a:hover {  background-color: rgba(255,255,255,0.2);}*/
+/*#burger_menu nav a:hover {  background-color: rgba(255,255,255,0.1);}*/
 	
 
 header .toolbar .cart_bar a.mini_badge:after,
@@ -171,6 +184,11 @@ label span {
     float: left;
 }
 
+.size_chart-btn{
+border: 1px solid gray;
+    color: gray;
+    border-radius: 0px;    
+}
 .follow-us{
       line-height: 20px;
       font-style: normal;
@@ -346,6 +364,23 @@ ul {
     background-color: rgba(255,255,255,1);
     border: 1px solid transparent;
 }
+.BRIDAL{
+   
+    color: #c3c3c3!important;
+}
+
+.BRIDAL:hover{
+    color: #c3c3c3!important;
+    opacity: 0.8!important;
+    text-decoration: none;
+
+}
+
+a:-webkit-any-link {
+/*text-decoration: none;*/
+}
+
+ 
 
 .menu a {
 	font-family: "Open Sans",sans-serif;
@@ -354,23 +389,30 @@ ul {
     padding: 0 20px;
 	margin: 10px 0;
     font-size: 20px;
-    opacity: 0.7;
+    opacity: 0.8;
     transition: 0.3s;
 	font-weight: 100;
 	text-decoration: none;
 	border: 2px solid transparent;
+
 }
 
 .menu a:hover, .menu a.selected {
-    opacity: 1;
-	color: #ea2c58;
+    
+	color: black;
     z-index: 3;
+    opacity: 1;
+     background: white;
 	text-decoration: none;
 }
 
 .menu ul li a:hover, .menu ul li a.selected {
-	border-bottom: 2px solid #ea2c58;	
+	/*border-bottom: 2px solid black;	*/
+    background: white;
+     opacity: 1;
 }
+
+
 
 
 
