@@ -464,6 +464,14 @@ ul {
     width: 20%;
 }
 
+.size-chart-row{
+        background: #e6e3e3;
+}
+
+.table td, .table th{
+    padding: .75rem;
+}
+
 .prod_title {
     line-height: 30px;
     font-size: 20px;
