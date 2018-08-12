@@ -1,4 +1,4 @@
-#burger_menu@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 * {
   -moz-outline: 0;
@@ -99,8 +99,8 @@ body {
 	.burger #burger_menu nav {padding:10px 0;margin:0;}
     .burger #burger_menu nav a { display: block; color: #fff; font-size: 20px; }
     .burger #burger_menu nav div a { font-style: italic; color: #ff0; font-size: 14px; }
-    /*.burger #burger_menu nav a:hover {  background-color: rgba(255,255,255,0.2);}*/
-    /*.burger #burger_menu nav a:hover {  background-color: rgba(255,255,255,0.1);}*/
+    .burger #burger_menu nav a:hover {  background-color: rgba(255,255,255,0.2);}
+    .burger #burger_menu nav a:hover {  background-color: rgba(255,255,255,0.1);}
 	.burger input:checked ~ span#burger_menu { top: 50px; opacity: 1; }
 
 .thumbnail {
@@ -119,7 +119,8 @@ body {
 }
 
 .thumbnail:hover {
-    text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+   color: #444;
+    opacity: 0.9;
 }
 
 
@@ -201,7 +202,7 @@ label[for="images"] img, .old_images img {
     z-index: -1;
     height: 0;
     width: 0;
-} 
+}
 
 input[type="radio"].radio-select + label span {
     opacity: 0.5;

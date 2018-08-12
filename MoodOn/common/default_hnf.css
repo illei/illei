@@ -100,8 +100,8 @@ header .burger_frontend .burger-icon span.burger-line {
 #burger_menu nav {padding:10px 0;margin:0;}
 #burger_menu nav a { display: block; color: #444; font-size: 20px; }
 #burger_menu nav div a { color: #777; font-size: 14px; }
-/*#burger_menu nav a:hover {  background-color: rgba(255,255,255,0.2);}*/
-/*#burger_menu nav a:hover {  background-color: rgba(255,255,255,0.1);}*/
+#burger_menu nav a:hover {  background-color: rgba(255,255,255,0.2);}
+#burger_menu nav a:hover {  background-color: rgba(255,255,255,0.1);}
 	
 
 header .toolbar .cart_bar a.mini_badge:after,
@@ -287,7 +287,6 @@ border: 1px solid gray;
 }
 
 /*mini image box end*/
-
 .social-btn{
 
     font-size: 20px;
@@ -296,6 +295,33 @@ border: 1px solid gray;
     color: black;
     cursor: pointer;
 }
+#add_cart_btn{
+    padding: 5px 20px 5px 20px;
+    background: #ea2c58;
+    border-radius: 0px;
+
+}
+
+#add_cart_btn:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+    border-color: #ea2c58;
+    color: #ea2c58;
+}
+
+#btn-modal{
+    padding: 5px 20px 5px 20px;
+    background: #ea2c58;
+    color: white;
+}
+
+
+
+.bagde{
+    border-radius: 0px;
+}
+
 
 .social-container{
 
@@ -367,20 +393,14 @@ ul {
 .BRIDAL{
    
     color: #c3c3c3!important;
+    opacity: 0.8!important;
 }
 
 .BRIDAL:hover{
     color: #c3c3c3!important;
     opacity: 0.8!important;
-    text-decoration: none;
-
+    text-decoration: none!important;
 }
-
-a:-webkit-any-link {
-/*text-decoration: none;*/
-}
-
- 
 
 .menu a {
 	font-family: "Open Sans",sans-serif;
@@ -403,7 +423,7 @@ a:-webkit-any-link {
     z-index: 3;
     opacity: 1;
      background: white;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .menu ul li a:hover, .menu ul li a.selected {
@@ -730,6 +750,8 @@ a.delete-link:hover {
 	margin: 0 auto;
 	text-align: center;
 }
+
+
 
 @media screen and (max-width: 600px) {
     .facebook {
