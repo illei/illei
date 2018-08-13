@@ -4,10 +4,10 @@
         
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./ambar_files/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="stylesheet" href="../common/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <meta name="csrf-token" content="4Poy8MApggkNq13jyn4NIRoGEPZw163jFc02wRYk">
         <title></title>
-        <link href="./ambar_files/app.css" rel="stylesheet">
+        <link href="../common/app.css" rel="stylesheet">
          <!-- <link href="./ambar_files/default.css" rel="stylesheet">  -->
         <link href="../common/common.css" rel="stylesheet">	
 		<link href="../common/default_hnf.css" rel="stylesheet">
@@ -30,7 +30,7 @@
         <script id="facebook-jssdk" src="./ambar_files/sdk.js.descărcare"></script><script src="./ambar_files/jquery.js.descărcare"></script>
         <script src="./ambar_files/elevatezoom.js.descărcare"></script>
         <script src="./ambar_files/notify.js.descărcare"></script>
-		<script type="text/javascript" src="jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="../common/jquery-3.3.1.js"></script>
         </head>
 
          <body>
@@ -71,8 +71,23 @@
 				<div class="tile" class="photo" data-scale="2.4" style="height: 100%; width: 100%; overflow: hidden; cursor: zoom-in; " >
        				<img class="photo" src="./ambar_files/1531128304Ambar.jpg" id="zoom_01" data-zoom-image="http://moodon.eu/img/products/1531128304Ambar.jpg">
 				</div>
+        <div class="moblie-img" class="photo" data-scale="2.4" style="height: 100%; width: 100%; overflow: hidden;   " >
+              <img class="photo img-fluid" src="./ambar_files/1531128304Ambar.jpg"  id="zoom_02" data-toggle="modal" data-target="#pictureModal"  data-zoom-image="http://moodon.eu/img/products/1531128304Ambar.jpg">
+        </div>
        			
        		</div> 
+
+          
+
+<div id="pictureModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" id="">
+        <div class="modal-body">
+            <img src="./ambar_files/1531128304Ambar.jpg" id="zoom_03" class="img-fluid">
+        </div>
+    </div>
+  </div>
+</div>
 <!-- fa sa  inmultesti amount cu pret -->
 
        		
@@ -914,6 +929,8 @@
        				function change(){
 
        				document.getElementById('zoom_01').src="./ambar_files/1531128304Ambar.jpg";
+              document.getElementById('zoom_02').src="./ambar_files/1531128304Ambar.jpg";
+               document.getElementById('zoom_03').src="./ambar_files/1531128304Ambar.jpg";
        					
        				
        				}
@@ -921,6 +938,8 @@
        				function change2(){
 
        				document.getElementById('zoom_01').src="./ambar_files/1531128315Ambar 1.jpg";
+              document.getElementById('zoom_02').src="./ambar_files/1531128315Ambar 1.jpg";
+              document.getElementById('zoom_03').src="./ambar_files/1531128315Ambar 1.jpg";
        					
        				
        				}
@@ -928,6 +947,8 @@
        				function change3(){
 
        				document.getElementById('zoom_01').src="./ambar_files/1531128322Ambar 2.jpg";
+              document.getElementById('zoom_02').src="./ambar_files/1531128322Ambar 2.jpg";
+              document.getElementById('zoom_03').src="./ambar_files/1531128322Ambar 2.jpg";
        					
        				
        				}

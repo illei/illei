@@ -758,6 +758,19 @@ a.delete-link:hover {
 	margin: 0 auto;
 	text-align: center;
 }
+.moblie-img{
+    display: none;
+}
+
+#pictureModal .modal{
+    background: #00000091;
+}
+#pictureModal .modal-body{
+    padding: 2px;
+}
+#pictureModal .modal-content{
+    margin-top: 300px;
+}
 
 
 
@@ -776,6 +789,7 @@ a.delete-link:hover {
     .zoomContainer {
         display: none;
     }
+    
 }
 
 @media screen and (max-width: 400px) {
@@ -826,5 +840,17 @@ header .padder-right{
 
 	width: 320px;
 	}
+}
+
+@media screen and (min-width: 330px) and (max-width: 768px){
+
+    .tile{
+        display: none;
+    }
+
+    .moblie-img{
+        display: block;
+    }
+
 }
 
