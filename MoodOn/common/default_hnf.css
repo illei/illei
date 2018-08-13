@@ -768,11 +768,11 @@ a.delete-link:hover {
 #pictureModal .modal-body{
     padding: 2px;
 }
-#pictureModal .modal-content{
+/*#pictureModal .modal-content{
     margin-top: 300px;
 }
 
-
+*/
 
 @media screen and (max-width: 600px) {
     .facebook {
