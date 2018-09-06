@@ -1,0 +1,66 @@
+body, h1,h2,h3,h4,h5,h6 {font-family: Bradley Hand, cursive;}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+hr{
+	border-bottom: 1px solid #9c9494;
+}
+
+.w3-opacity:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+.w3-opacity{
+	opacity: 0.3;
+}
+.rep-height{
+	height: 200px;
+}
+
+.no-logo{
+	border: 2px dotted black;
+	border-radius: 50px;
+	line-height: 0;
+	text-align: center;
+
+}
+
+ .company-container{
+ 	margin-bottom: 50px;
+ }
+
+.h-font{
+	font-family: Snell Roundhand, cursive;
+}
+
+.card-color{
+	background: #1277a0;
+	color: white;
+}
+
+
+/* Remove margins from "page content"
+ on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}
+	.small-center{
+		text-align: center!important;
+		margin: auto;
+	}
+
+	.company-container{
+ 	margin-bottom: 110px;
+ }
+
+ .w3-opacity{
+ 	opacity: 1;
+ }
+
+  body p {
+  	font-family: Helvetica, sans-serif;
+  	font-size: 18px;
+  }
+
+}
