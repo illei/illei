@@ -69,6 +69,12 @@ body{
 
 }
 
+.content-hr-img{
+  background: url(../img/hanul-cu-noroc.jpg);
+  background-size: cover;
+
+}
+
 .content-pub-img{
   background: url(../img/grn.jpg);
   background-size: cover;
