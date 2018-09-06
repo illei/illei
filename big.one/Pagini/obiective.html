@@ -26,7 +26,7 @@
 			<label onclick="open_modal()">Autentificare</label>
 			<a href="obiective.html">Obiective</a>
 			<a href="Istoric.html">Istoric</a>
-			<a href="index.html"> Oras</a>
+			<a href="../index.html"> Oras</a>
 		</div>
 
 	</div>
@@ -41,10 +41,10 @@
 			
 			
 			
-			<div class="hamburger-holder" onclick="location.href='Melodia.html'"><a href="Melodia.html" style=";">Melodia Preferata</a></div>
-			<div class="hamburger-holder" onclick="location.href='hobby.html'"><a href="hobby.html">Hobby-uri</a></div>
-			<div class="hamburger-holder" onclick="location.href='review.html'"><a href="review.html">Review</a></div>
-			<div class="hamburger-holder" onclick="location.href='index.html'"><a href="index.html"> Home</a></div>
+			
+			<div class="hamburger-holder" onclick="location.href='../index.html'"><a href="hobby.html">Oras</a></div>
+			<div class="hamburger-holder" onclick="location.href='Istoric.html'"><a href="review.html">Istoric</a></div>
+			<div class="hamburger-holder" onclick="location.href='obiective.html'"><a href="index.html"> Obiective</a></div>
 			<div class="hamburger-holder hamburger-login" onclick="open_modal()"><a onclick="open_modal()">Welcome back, Login</a></div>
 				
 		
@@ -82,13 +82,84 @@
 </div>
 
 
+
+<div id="modal-rez" style="display: none;padding-top: 50px;position: fixed;left: 0;top: 0;width: 100%;height: 100%;overflow: auto;background-color: rgba(0,0,0,0.5);z-index: 2222;">
+    	<div style="width: 400px;height: 400px;border-radius: 10px;; background:  white;     position: fixed;top: 50%;left: 50%;transform: translate(-50%,-50%);" >
+    		<div class="input-container"><label>Numele: </label> <br><input type="text" id="nume" onblur="verifica_nume()" placeholder="adrian" ><br><br></div>
+
+ <div class="input-container"><label>Prenumele:</label><br><input type="text" id="prenume" onblur="verifica_prenume()" placeholder="Gheorghe" ><br><br></div>
+
+ <div class="input-container"><label>Email:</label><br><input type="email" id="adresa" onblur="verifica_adresa()" placeholder="user@domain.com" ><br><br></div>
+
+<div class="input-container"><label>Data:</label><br><input type="date" id="adresa" onblur="verifica_adresa()" placeholder="user@domain.com" ><br><br></div>
+
+<div class="input-container"><label>interval orar:</label><br><input type="text" id="adresa" onblur="verifica_adresa()" placeholder="user@domain.com" ><br><br></div>
+
+			<button class=" button-rez" style="margin-right: 5px;"> Fa o rezervare </button>
+			<button class=" button-rez" onclick="close_modal_rez()" style="float: left; background: gray;margin-left: 5px;"> Renunta </button>
+    	</div>
+
+    </div>
+
+
 <div id="modal-par"  class="modal-ob shadow">
 		
 	<div class="modal-content-ob">
 		<div class="modal-head-ob">
 		<span class="close-ob" onclick="close_modal_par()">X</span></div>
 
-		
+				<div class="modal-ob-container">
+
+					<div  class="modal-ob-img president-img" >
+						
+							
+					</div>
+
+					<div class="modal-ob-inf">
+						<h3>President </h3>
+						 <div class="modal-ob-text"><p>AQUA PRESIDENT este deschis tot timpul anului funcţionând cu binecunoscuta apă termala din renumita staţiune balneară Băile Felix.</p></div>
+						
+					</div>
+
+
+				 </div>
+
+				 <div class="modal-ob-container">
+
+					<div  class="modal-ob-img nimfea-img" >
+						
+							
+					</div>
+
+					<div class="modal-ob-inf  ">
+						<h3>Nymphaeaa </h3>
+						 <div class="modal-ob-text"><p>Descoperă cel mai mare Aquapark din această regiune a Europei, Aquaparkul Nymphaea. Întins pe o suprafaţă de 7 hectare, acesta te va introduce în lumea fascinantă a distracţiei şi adrenalinei. O nouă modalitate de a scăpa de ritmul alert şi stresant al oraşului te va cuceri din primele clipe.</p></div>
+						
+					</div>
+
+
+				 </div>
+
+
+				 <div class="modal-ob-container">
+
+					<div  class="modal-ob-img iosia-img" >
+						
+							
+					</div>
+
+					<div class="modal-ob-inf">
+						<h3>Strandul Iosia </h3>
+						 <div class="modal-ob-text"><p> Este situat pe malul stâng al Crișului Repede, între podul Sovata și podul O. Densușeanu, pe o suprafață de cca. 4,7 ha.
+
+Ștrandul are o bază de agrement compusă din 6 bazine.</p></div>
+						
+					</div>
+
+
+				 </div>
+
+
 
 		
 
@@ -197,21 +268,22 @@
 
 
 <div id="modal-ist"  class="modal-ob shadow">
-	
+	<div class="modal-head-ob">
+		<span class="close-ob" onclick="close_modal_ist()">X</span></div>
+
 			
 	<div class="modal-content-ob">
-		<div class="modal-head-ob">
-		<span class="close-ob" onclick="close_modal_ist()">X</span></div>
+		
 
 		<div class="modal-ob-container">
 
-					<div class="modal-ob-img ciuperca-img" >
+					<div class="modal-ob-img cetatea-img" >
 						
 					</div>
 
 					<div class="modal-ob-inf">
-						<h3>Dealul Ciuperca </h3>
-						 <div class="modal-ob-text"><p> Dealul Ciuperca este locul potrivit de unde te poți bucura de răsăriturile, apusurile și cerul înstelat ce surprind plăcut pe oricine.</p></div>
+						<h3>Cetatea </h3>
+						 <div class="modal-ob-text"><p> Cetatea Oradea reprezintă un monument arhitectonic din România, una dintre puținele cetăți utilizate și în prezent. Se spune despre cetate că nu putea fi cucerită din cauza vastelor rețele subterane de legături cu exteriorul. </p></div>
 						
 					</div>
 
@@ -220,13 +292,13 @@
 
 				<div class="modal-ob-container">
 
-					<div class="modal-ob-img piata-unirii-img" >
+					<div class="modal-ob-img palat-img" >
 						
 					</div>
 
 					<div class="modal-ob-inf">
-						<h3>Piata unirii</h3>
-						 <div class="modal-ob-text"><p>Fondul construit al zonei Pieţei Unirii este unul valoros şi destul de eterogen atât din punctul de vedere al stilurilor arhitecturale prezente aici (baroc, clasicist, eclectic, istorizant, secesion, modernist), cât şi în privinţa configuraţiilor spaţiale adoptate, a accentelor şi a regimurilor de înălţime.</p></div>
+						<h3>Palatul Vulturul Negru</h3>
+						 <div class="modal-ob-text"><p>Palatul, aflat la adresa str. Independenței Nr.1, a fost construit între 1907-1908 de arhitecții orădeni Marcell Komor și Dezső Jakob, în stil secession. Antreprenorul lucrării a fost Ferenc Sztarill. Pe locul acestei clădiri s-a aflat palatul Arborele Verde, care dispunea de o sală ce găzduia manifestările culturale și politice.</p></div>
 						
 					</div>
 
@@ -235,13 +307,26 @@
 
 				<div class="modal-ob-container">
 
-					<div class="modal-ob-img mal-img" >
+					<div class="modal-ob-img tarii-img" >
 						
 					</div>
 
 					<div class="modal-ob-inf">
-						<h3>Malul Crisului</h3>
-						 <div class="modal-ob-text"><p>Lolcul perfcet pentru plimbari de seara sau de zi, malul crisului Repede este de o frumueste izbitoare si captivanta</p></div>
+						<h3>Muzeul țarii crisurilor</h3>
+						 <div class="modal-ob-text"><p>Program de vizitare:
+Luni – închis
+Marţi, Joi, Sîmbătă: 10.00-15.00; Miercuri, Vineri, Duminică: 10.00-18.00
+
+Ultima intrare în muzeu se face cu 30 de min. înainte de ora de închidere.
+
+
+Preţ bilete muzeu:
+
+Adulţi: 8 lei/pers. Copii peste 4 ani, elevi, studenţi, pensionari: 4 lei. Ghidaj: 5 lei/grup.
+
+Preț bilete Vivariu:
+
+Adulți: 6 lei/pers. Copii peste 4 ani, elevi, studenți, pensionari: 3 lei.</p></div>
 						
 					</div>
 
@@ -252,13 +337,14 @@
 
 				<div class="modal-ob-container">
 
-					<div class="modal-ob-img parc-img" >
+					<div class="modal-ob-img armatei-img" >
 						
 					</div>
 
 					<div class="modal-ob-inf ">
-						<h3> Parcul 1 Decembrie</h3>
-						 <div class="modal-ob-text"><p> Parcul 1 Decembrie este situat in centrul orașului fiind o oază de verdeață în inima orașului.Parcul găzduieşte: Casa de Cultura a Sindicatelor, două fântâni arteziene și Statuia Ostaşului Român, operă a sculptorului Iulia Oniţa simbolizând eroismul armatei române.</p></div>
+						<h3> Muzeul Armatei Romane</h3>
+						 <div class="modal-ob-text"><p>Muzeul Militar Național din Oradea joacă un rol important în cunoașterea tradițiilor istorice militare și în cunoașterea istoriei naționale. Când îi treci pragul te trezești într-o lume în care eroii, onoarea și dragostea de țară sunt principii de neîntinat.
+Situat pe Calea Armatei Române nr. 24/A, Muzeul Militar Național din Oradea se află într-o clădire în stilul secesiunii vieneze. Edificiul a fost construit în 1895 pentru armata ungară.</p></div>
 						
 					</div>
 
@@ -267,21 +353,7 @@
 
 
 
-				<div class="modal-ob-container">
-
-					<div class="modal-ob-img republici-img" >
-						
-					</div>
-
-					<div class="modal-ob-inf">
-						<h3>Strada Republici</h3>
-						 <div class="modal-ob-text"><p> Bulevardul republici  arata frumusetea orasului Oradea.
-						 Gazduind multe magazine vestimentare </p></div>
-						
-					</div>
-
-
-				 </div>
+				
 
 		
 
@@ -297,10 +369,79 @@
 
 <div id="modal-rst"  class="modal-ob shadow">
 
+	<div class="modal-head-ob">
+		<span class="close-ob" onclick="close_modal_rst()">X</span></div>
 		
 	<div class="modal-content-ob">
-		<div class="modal-head-ob">
-		<span class="close-ob" onclick="close_modal_rst()">X</span></div>
+		<
+
+		<div class="modal-ob-container">
+
+			<div class="modal-ob-img ciuperca-img" >
+				
+				</div>
+
+				<div class="modal-ob-inf">
+					<h3>Dealul Ciuperca </h3>
+					 <div class="modal-ob-text"><p> Dealul Ciuperca este locul potrivit de unde te poți bucura de răsăriturile, apusurile și cerul înstelat ce surprind plăcut pe oricine.</p>
+	                      <button class=" button-rez" onclick="open_modal_rez()"> Fa o rezervare </button>
+	                 </div>
+					
+				</div>
+
+		</div>
+
+		
+
+		<div class="modal-ob-container">
+
+			<div class="modal-ob-img ciuperca-img" >
+				
+				</div>
+
+				<div class="modal-ob-inf">
+					<h3>Dealul Ciuperca </h3>
+					 <div class="modal-ob-text"><p> Dealul Ciuperca este locul potrivit de unde te poți bucura de răsăriturile, apusurile și cerul înstelat ce surprind plăcut pe oricine.</p>
+	                      <button class=" button-rez" onclick="open_modal_rez()"> Fa o rezervare </button>
+	                 </div>
+					
+				</div>
+
+		</div>
+
+		<div class="modal-ob-container">
+
+			<div class="modal-ob-img ciuperca-img" >
+				
+				</div>
+
+				<div class="modal-ob-inf">
+					<h3>Dealul Ciuperca </h3>
+					 <div class="modal-ob-text"><p> Dealul Ciuperca este locul potrivit de unde te poți bucura de răsăriturile, apusurile și cerul înstelat ce surprind plăcut pe oricine.</p>
+	                      <button class=" button-rez" onclick="open_modal_rez()"> Fa o rezervare </button>
+	                 </div>
+					
+				</div>
+
+		</div>
+
+		<div class="modal-ob-container">
+
+			<div class="modal-ob-img ciuperca-img" >
+				
+				</div>
+
+				<div class="modal-ob-inf">
+					<h3>Dealul Ciuperca </h3>
+					 <div class="modal-ob-text"><p> Dealul Ciuperca este locul potrivit de unde te poți bucura de răsăriturile, apusurile și cerul înstelat ce surprind plăcut pe oricine.</p>
+	                      <button class=" button-rez " onclick="open_modal_rez()"> Fa o rezervare </button>
+	                 </div>
+					
+				</div>
+
+		</div>
+
+		
 
 		
 
@@ -313,12 +454,64 @@
 </div>
 
 <div id="modal-htl"  class="modal-ob shadow">
+	<div class="modal-head-ob">
+		<span class="close-ob" onclick="close_modal_htl()">X</span></div>
 	
 		
 	<div class="modal-content-ob">
-		<div class="modal-head-ob">
-		<span class="close-ob" onclick="close_modal_htl()">X</span></div>
+		
 
+
+			<div class="modal-ob-container">
+
+			<div class="modal-ob-img hilton-img" >
+				
+				</div>
+
+				<div class="modal-ob-inf">
+					<h3>Hilton </h3>
+					 <div class="modal-ob-text"><p> Dealul Ciuperca este locul potrivit de unde te poți bucura de răsăriturile, apusurile și cerul înstelat ce surprind plăcut pe oricine.</p>
+	                      <button class=" button-rez"onclick="open_modal_rez()" style=""> Fa o rezervare </button>
+	                 </div>
+					
+				</div>
+
+		</div>
+
+
+		<div class="modal-ob-container">
+
+			<div class="modal-ob-img ramada-img" >
+				
+				</div>
+
+				<div class="modal-ob-inf">
+					<h3>Ramada </h3>
+					 <div class="modal-ob-text"><p> Dealul Ciuperca este locul potrivit de unde te poți bucura de răsăriturile, apusurile și cerul înstelat ce surprind plăcut pe oricine.</p>
+	                      <button class=" button-rez" onclick="open_modal_rez()"> Fa o rezervare </button>
+	                 </div>
+					
+				</div>
+
+		</div>
+
+		<div class="modal-ob-container">
+
+			<div class="modal-ob-img nevis-img" >
+				
+				</div>
+
+				<div class="modal-ob-inf">
+					<h3>Nevis </h3>
+					 <div class="modal-ob-text"><p> Dealul Ciuperca este locul potrivit de unde te poți bucura de răsăriturile, apusurile și cerul înstelat ce surprind plăcut pe oricine.</p>
+	                      <button class=" button-rez" onclick="open_modal_rez()"> Fa o rezervare </button>
+	                 </div>
+					
+				</div>
+
+		</div>
+
+		
 		
 
 		
@@ -333,10 +526,106 @@
 
 <div id="modal-pub"  class="modal-ob shadow">
 	
+	<div class="modal-head-ob"><span class="close-ob" onclick="close_modal_pub()">X</span></div>
 	
 	<div class="modal-content-ob">
-		<div class="modal-head-ob"><span class="close-ob" onclick="close_modal_pub()">X</span></div>
 		
+		
+		<div class="modal-ob-container">
+
+			<div class="modal-ob-img ciuperca-img" >
+				
+				</div>
+
+				<div class="modal-ob-inf">
+					<h3>Dealul Ciuperca </h3>
+					 <div class="modal-ob-text"><p> Dealul Ciuperca este locul potrivit de unde te poți bucura de răsăriturile, apusurile și cerul înstelat ce surprind plăcut pe oricine.</p>
+	                      <button class=" button-rez"onclick="open_modal_rez()"> Fa o rezervare </button>
+	                 </div>
+					
+				</div>
+
+		</div>
+
+		<div class="modal-ob-container">
+
+			<div class="modal-ob-img ciuperca-img" >
+				
+				</div>
+
+				<div class="modal-ob-inf">
+					<h3>Dealul Ciuperca </h3>
+					 <div class="modal-ob-text"><p> Dealul Ciuperca este locul potrivit de unde te poți bucura de răsăriturile, apusurile și cerul înstelat ce surprind plăcut pe oricine.</p>
+	                      <button class=" button-rez"onclick="open_modal_rez()"> Fa o rezervare </button>
+	                 </div>
+					
+				</div>
+
+		</div>
+
+		<div class="modal-ob-container">
+
+			<div class="modal-ob-img ciuperca-img" >
+				
+				</div>
+
+				<div class="modal-ob-inf">
+					<h3>Dealul Ciuperca </h3>
+					 <div class="modal-ob-text"><p> Dealul Ciuperca este locul potrivit de unde te poți bucura de răsăriturile, apusurile și cerul înstelat ce surprind plăcut pe oricine.</p>
+	                      <button class=" button-rez" onclick="open_modal_rez()" > Fa o rezervare </button>
+	                 </div>
+					
+				</div>
+
+		</div>
+
+		<div class="modal-ob-container">
+
+			<div class="modal-ob-img ciuperca-img" >
+				
+				</div>
+
+				<div class="modal-ob-inf">
+					<h3>Dealul Ciuperca </h3>
+					 <div class="modal-ob-text"><p> Dealul Ciuperca este locul potrivit de unde te poți bucura de răsăriturile, apusurile și cerul înstelat ce surprind plăcut pe oricine.</p>
+	                      <button class=" button-rez" onclick="open_modal_rez()"> Fa o rezervare </button>
+	                 </div>
+					
+				</div>
+
+		</div>
+
+		<div class="modal-ob-container">
+
+			<div class="modal-ob-img ciuperca-img" >
+				
+				</div>
+
+				<div class="modal-ob-inf">
+					<h3>Dealul Ciuperca </h3>
+					 <div class="modal-ob-text"><p> Dealul Ciuperca este locul potrivit de unde te poți bucura de răsăriturile, apusurile și cerul înstelat ce surprind plăcut pe oricine.</p>
+	                      <button class=" button-rez"onclick="open_modal_rez()" > Fa o rezervare </button>
+	                 </div>
+					
+				</div>
+
+		</div>
+
+		<div class="modal-ob-container">
+
+			<div class="modal-ob-img ciuperca-img" >
+				
+				</div>
+
+				<div class="modal-ob-inf">
+					<h3>Dealul Ciuperca </h3>
+					 <div class="modal-ob-text"><p> Dealul Ciuperca este locul potrivit de unde te poți bucura de răsăriturile, apusurile și cerul înstelat ce surprind plăcut pe oricine.</p>
+	                      <button class=" button-rez" onclick="open_modal_rez()"> Fa o rezervare </button>
+	                 </div>
+					
+				</div>
+
+		</div>
 
 		
 

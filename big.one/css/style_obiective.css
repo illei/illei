@@ -1,8 +1,18 @@
+body{
+  
+  /*background: #f5f6f9;*/
+      background: #f1f1f1;
+  background-size: cover;
+  position: relative;
+  margin:0;
+}
+
+
 .site-wrapper{
 
 	width: 100%;
 	height: 900px;
-	padding-top: 201px;
+	padding-top: 250px;
 	
 }
 
@@ -43,12 +53,12 @@
 }
 
 .content-aqp-img{
-  background: url(../img/nimpfea.jpg);
+  background: url(../img/pres.jpg);
   background-size: cover;
 
 }
 .content-ps-img{
-  background: url(../img/img1.jpg);
+  background: url(../img/mal.jpg);
   background-size: cover;
 
 }
@@ -69,6 +79,53 @@
   background-size: cover;
 }
 
+.president-img{
+  background: url(../img/president.jpg);
+  background-size: cover;
+}
+
+.nimfea-img{
+  background: url(../img/nimpfea.jpg);
+  background-size: cover;
+}
+
+.iosia-img{
+  background: url(../img/iosia.jpg);
+  background-size: cover;
+}
+
+.cetatea-img{
+  background: url(../img/cetatea.jpg);
+  background-size: cover;
+}
+.palat-img{
+  background: url(../img/palat.jpg);
+  background-size: cover;
+}
+
+.tarii-img{
+  background: url(../img/tarii.jpg);
+  background-size: cover;
+}
+
+.armatei-img{
+  background: url(../img/armatei.jpg);
+  background-size: cover;
+}
+.hilton-img{
+  background: url(../img/hilton.jpg);
+  background-size: cover;
+}
+
+.ramada-img{
+  background: url(../img/ramada.jpg);
+  background-size: cover;
+}
+
+.nevis-img{
+  background: url(../img/nevis.jpg);
+  background-size: cover;
+}
 .content:hover{
    opacity:1 ;
     cursor: pointer;
@@ -81,7 +138,7 @@
   top: 50%; left: 50%;
   transform: translate(-50%,-50%);
   font-size: 19px;
-  color: #fbf705;
+  color: #fffffffa;
   opacity: 1;
     
     
@@ -120,7 +177,7 @@
 /*General modal grad 1*/
 .modal-ob{
 
-  padding-top: 100px;
+  padding-top: 50px;
     position: fixed;
 
     left: 0;
@@ -202,8 +259,40 @@
   padding-top: 50px;
 
 }
-/*End general modal grad 1*/
 
+.button-rez{
+  float: right;
+  height: 50px;
+  width: 120px;
+  font-size: 16px;
+  border-radius: 15px; 
+  background: #03dbfc;border: none; color: white; cursor: pointer;
+}
+/*End general modal grad 1*/
+ .input-container{
+  width: 90%;
+  margin: auto;
+
+}
+
+#modal-rez input{
+  height: 30px;
+  font-size: 15px;
+  
+  width: 100%;
+  margin: auto;
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+  outline: none;
+  
+}
+
+.myForm label {
+  color: #000000b5;
+    font-size: 23px;
+    font-style: oblique;
+
+}
 
 
 .ciuperca-img{
