@@ -145,7 +145,7 @@
         float: left;
         width: 280px;
         margin: auto;
-        margin-right: 10px;
+        margin-right: 20px;
         margin-bottom: 20px;
         
     }
@@ -179,7 +179,7 @@
         float: left;
         width: 280px;
         margin: auto;
-        margin-right: 10px;
+        margin-right: 20px;
         margin-bottom: 20px;
         
     }
@@ -190,5 +190,9 @@
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1365px){
+
+  .modal-ob{
+    padding-top: 50px;
+  }
 	
 }	

@@ -1,7 +1,10 @@
 body{
-
-background: linear-gradient(to right, #373b44, #4286f4);
-
+	
+	/*background: #f5f6f9;*/
+	    background: #f1f1f1;
+	background-size: cover;
+	position: relative;
+	margin:0;
 }
  /* container site*/
 
@@ -14,90 +17,39 @@ background: linear-gradient(to right, #373b44, #4286f4);
 
 }
 
+.video-container{
+    position:relative;
+    margin-bottom: -5px;
+    margin-top: 65px; 
+    width: 100vw;
+    height: 100vh;
+    
+    
+}
+
+#Vino{
+    font-size: 60px;font-weight: bold ;  color: white; 
+		 text-align: center; position: absolute; font-family: Apple Chancery, cursive;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+#myVideo {
+    position: relative;
+    width: 100vw;
+    opacity: 0.9;
+   }
 
 .empty{
 	width: 100%;
-	height: 500px;
-	background: #fff;
+	height: 400px;
+	background: #ffff;
 	padding-top: 30px;
-	font-family: Lucida Console;
+	border: 1px solid #868e96;
+	
 }
-
-.empty h2{
-	float: right;
-	padding-top: 300px;
-}
-
-/*Slideshow*/
-{box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  width: 90%;
-  position: relative;
-  margin: auto;
- }
-
-/* Hide the images by default */
-.mySlides {
-    display: none;
-    width: 80%;
-    margin: auto;
-}
-.mySlides img{
-	height: 500px;
-    width: 100%;
-
-}
-/* Next & previous buttons */
-
-/* Next & previous buttons */
-
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-
-
-
-
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
 
 
 
@@ -143,6 +95,7 @@ background: linear-gradient(to right, #373b44, #4286f4);
 
 .mywebsite{
 	background-image: url(../img/street.jpg);
+	background-size: cover;
 }
 
 .myPc{
@@ -152,6 +105,10 @@ background: linear-gradient(to right, #373b44, #4286f4);
 .myCode{
 	background-image: url(../img/Learntocode.jpg);
 
+}
+
+.cnt3{
+	background-image: url(../img/cnt3.jpg);
 }
 
 .news-middle{
@@ -184,10 +141,10 @@ background: linear-gradient(to right, #373b44, #4286f4);
 
 .inner-footer{
 	width: 100%;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	padding-top: 30px;
 	
-	padding-top: 50px;
 	
-	font-family: Lucida Console;
 	background: white;
 	margin: auto;
 }
@@ -203,7 +160,7 @@ background: linear-gradient(to right, #373b44, #4286f4);
 .post-time{
 	border-bottom: 1px dotted #999;
 	float: right;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .inner-footer-button:hover{
@@ -359,107 +316,4 @@ cursor: pointer;
 	float: right;
 	color: #de1a1a
 }
-
-.post1{
-	height: 140px;
-	border-bottom: 1px solid #f0f0f0;
-	
-}
-
-.post2{
-	height: 110px;
-	border-bottom: 1px solid #f0f0f0;
-	background: white;
-}
-
-.post3{
-	height: 110px;
-	border-bottom: 1px solid #f0f0f0;
-	background: white;
-}
-
-.post4{
-	height: 110px;
-	border-bottom: 1px solid #f0f0f0;
-	background: white;
-}
-
-.post5{
-	height: 110px;
-	border-bottom: 1px solid #f0f0f0;
-	background: white;
-}
-
-
-
-.topic1{
-	height: 140px;
-	border-bottom: 1px solid #f0f0f0;
-	
-
-}
-
-.topic2{
-	height: 50px;
-	border-bottom: 1px solid #f0f0f0;
-	background: white;
-
-}
-
-.topic3{
-	height: 50px;
-	border-bottom: 1px solid #f0f0f0;
-	background: white;
-
-}
-
-.topic4{
-	height: 50px;
-	border-bottom: 1px solid #f0f0f0;
-	background: white;
-
-}
-
-.topic5{
-	height: 50px;
-	border-bottom: 1px solid #f0f0f0;
-	background: white;
-
-}
-
-.topic6{
-	height: 50px;
-	border-bottom: 1px solid #f0f0f0;
-	background: white;
-
-}
-
-.topics p{
-	color: #666666;
-	cursor: pointer;
-	padding:  10px 0px 0px 10px;
-	
-	
-
-}
-
-.topics p:hover{
-	margin-left: 20px;
-	border-left: 2px solid red;
-}
-
-/*End right sise*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 

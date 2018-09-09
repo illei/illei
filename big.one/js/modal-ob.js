@@ -98,6 +98,21 @@ function close_modal_htl() {
 
 /*End open/close function*/
 
+
+function open_modal_rez() {
+	var ref_modal= document.getElementById('modal-rez');
+	var ref_body=document.getElementById('body');
+	ref_modal.style.display="block";
+	ref_body.style.overflow="hidden";
+
+}
+
+function close_modal_rez() {
+	var ref_modal= document.getElementById('modal-rez');
+	ref_modal.style.display="none";
+	ref_body.style.overflow="scroll";
+
+}
 /*Lightbox*/
 
 

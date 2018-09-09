@@ -74,14 +74,17 @@ color: white;
 }
 
 .hamburger{
-	height: 310px;
+	height: 248px;
 	width: 100%;
 	background: #373737;
 
 	
 }
 
+#empty-hamburger{
+	height: 120px;
 
+}
 
 .hamburger-holder{
 	height: 60px;
@@ -159,7 +162,7 @@ color: white;
 /*Hamburger!!!*/
 
 .hamburger{
-	height: 310px;
+	height: 248px;
 	width: 100%;
 	background: #373737;
 
